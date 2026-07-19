@@ -9,6 +9,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
   <a href="https://github.com/rahulchaube1/Rahul-Chaube-Skills/releases"><img src="https://img.shields.io/github/v/release/rahulchaube1/Rahul-Chaube-Skills?label=Release&color=purple&style=flat-square" alt="Latest Release"></a>
   <a href="https://github.com/rahulchaube1/Rahul-Chaube-Skills/stars"><img src="https://img.shields.io/github/stars/rahulchaube1/Rahul-Chaube-Skills?style=flat-square&label=Stars&color=yellow" alt="Github Stars"></a>
+          <a href="https://trendshift.io/developers/5698?utm_source=developer-badge&utm_medium=badge&utm_campaign=badge-developer-5698" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/developers/5698" alt="assafelovic | Trendshift" width="250" height="55"/></a>
 </p>
 
 **Rahul-Chaube-Skills (RCS)** is a production-grade, comprehensive open-source AI Skills Ecosystem and Learning Platform designed for modern Large Language Models (LLMs), autonomous AI agents, serving optimization runtimes, and distributed ML engineering.
