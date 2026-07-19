@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
+  <rect width="600" height="300" fill="#0f172a" rx="15" />
+  <text x="300" y="45" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">CONTEXT WINDOW MEMORY RETRIEVAL</text>
+  
+  <rect x="40" y="90" width="150" height="60" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="115" y="125" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8" text-anchor="middle">Semantic Retrieval (RAG)</text>
+  
+  <rect x="40" y="180" width="150" height="60" rx="6" fill="#1e293b" stroke="#0ea5e9" stroke-width="2" />
+  <text x="115" y="215" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#0ea5e9" text-anchor="middle">Short-term Conversation</text>
+  
+  <path d="M190 120 L270 150 M190 210 L270 150" stroke="#64748b" stroke-width="3" fill="none" />
+
+  <rect x="270" y="110" width="150" height="80" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+  <text x="345" y="145" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#10b981" text-anchor="middle">Unified Context</text>
+  <text x="345" y="165" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Compiled to Agent</text>
+
+  <path d="M420 150 L500 150" stroke="#64748b" stroke-width="3" fill="none" />
+
+  <rect x="500" y="120" width="60" height="60" rx="30" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+  <text x="530" y="155" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#a855f7" text-anchor="middle">LLM</text>
+</svg>

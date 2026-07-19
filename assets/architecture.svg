@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#0f172a" rx="15" />
+  <text x="400" y="40" font-family="'Inter', sans-serif" font-size="24" font-weight="bold" fill="#f1f5f9" text-anchor="middle">RCS SYSTEM ARCHITECTURE</text>
+  
+  <rect x="250" y="80" width="300" height="60" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="400" y="115" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#38bdf8" text-anchor="middle">Global Behavior Guidelines (CLAUDE.md / MDC)</text>
+  
+  <path d="M400 140 L400 180" stroke="#64748b" stroke-width="3" fill="none" />
+  
+  <rect x="250" y="180" width="300" height="60" rx="8" fill="#1e293b" stroke="#0ea5e9" stroke-width="2" />
+  <text x="400" y="215" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#0ea5e9" text-anchor="middle">Dynamic Skill Dispatcher</text>
+  
+  <path d="M400 240 L150 290 M400 240 L400 290 M400 240 L650 290" stroke="#64748b" stroke-width="2" fill="none" />
+  
+  <rect x="50" y="290" width="200" height="65" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+  <text x="150" y="320" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#10b981" text-anchor="middle">Core Behaviors</text>
+  <text x="150" y="340" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Reasoning, Planning, Coding</text>
+
+  <rect x="300" y="290" width="200" height="65" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="2" />
+  <text x="400" y="320" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f59e0b" text-anchor="middle">AI / ML Operations</text>
+  <text x="400" y="340" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">RAG, MCP, Web-Search</text>
+
+  <rect x="550" y="290" width="200" height="65" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+  <text x="650" y="320" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#a855f7" text-anchor="middle">Model Specific Rules</text>
+  <text x="650" y="340" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Claude, OpenAI, Gemini</text>
+  
+  <path d="M150 355 L400 400 M400 355 L400 400 M650 355 L400 400" stroke="#64748b" stroke-width="2" fill="none" />
+  <text x="400" y="425" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#f1f5f9" text-anchor="middle">Target LLM / Agent Context Window</text>
+</svg>

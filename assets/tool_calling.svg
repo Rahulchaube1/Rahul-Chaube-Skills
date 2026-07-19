@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
+  <rect width="600" height="300" fill="#0f172a" rx="15" />
+  <text x="300" y="45" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">TOOL CALLING FLOW</text>
+  
+  <text x="120" y="90" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9" text-anchor="middle">Agent Model</text>
+  <line x1="120" y1="105" x2="120" y2="250" stroke="#64748b" stroke-width="2" stroke-dasharray="4 4" />
+
+  <text x="480" y="90" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9" text-anchor="middle">Tool Registry</text>
+  <line x1="480" y1="105" x2="480" y2="250" stroke="#64748b" stroke-width="2" stroke-dasharray="4 4" />
+
+  <path d="M120 130 L480 130" stroke="#38bdf8" stroke-width="2" fill="none" />
+  <polygon points="480,130 470,125 470,135" fill="#38bdf8" />
+  <text x="300" y="120" font-family="'Inter', sans-serif" font-size="11" fill="#38bdf8" text-anchor="middle">Propose tool call (parameters)</text>
+
+  <path d="M480 180 L120 180" stroke="#10b981" stroke-width="2" fill="none" />
+  <polygon points="120,180 130,175 130,185" fill="#10b981" />
+  <text x="300" y="170" font-family="'Inter', sans-serif" font-size="11" fill="#10b981" text-anchor="middle">Execute &amp; return JSON results</text>
+
+  <path d="M120 220 L480 220" stroke="#fbbf24" stroke-width="2" fill="none" />
+  <polygon points="480,220 470,215 470,225" fill="#fbbf24" />
+  <text x="300" y="210" font-family="'Inter', sans-serif" font-size="11" fill="#fbbf24" text-anchor="middle">Validate against success goals</text>
+</svg>

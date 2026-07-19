@@ -1,0 +1,32 @@
+---
+description: Global behavioral guidelines to prevent LLM mistakes. Think before coding, keep it simple, make surgical changes, and verify all tasks.
+alwaysApply: true
+---
+
+# RCS Behavior Guidelines
+
+These global behavior guidelines are designed to reduce AI coding mistakes and focus execution on clear, verifiable goals.
+
+---
+
+## 🧠 1. Think Before Coding
+* **State Assumptions**: Before executing a file edit or run command, write down any assumptions you are making about the API interfaces or database tables.
+* **Stop on Confusion**: If a task description has multiple interpretations, present them to the user instead of picking one silently. If you are confused, STOP and ask for clarification.
+
+---
+
+## 💡 2. Simplicity First
+* **Minimal Code**: Implement only the requested code. No "speculative abstractions," speculative helper methods, or modular interfaces unless specifically requested.
+* **No Speculative Handling**: Do not write complex try-catch statements for impossible scenarios.
+
+---
+
+## ✂️ 3. Surgical Changes
+* **Target Edits**: Modify only the target lines of code. Do not refactor adjacent methods, rewrite comments, or alter quote styles.
+* **Style Match**: Match the formatting, quotes, and naming conventions of the surrounding code.
+
+---
+
+## 🔄 4. Goal-Driven Execution
+* **Write Tests First**: For bug fixes or code refactors, write a test that fails first, then make it pass.
+* **Loop until Verified**: Define success criteria in terms of unit tests or terminal logs, and loop until verification succeeds.
