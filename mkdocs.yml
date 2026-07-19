@@ -76,6 +76,17 @@ nav:
       - Tool Safety: tools.md
       - Vision & Multimodal: vision.md
       - Examples: examples.md
+  - Supported Models:
+      - EverestQ: models/everestq.md
+      - Claude: models/claude.md
+      - OpenAI: models/openai.md
+      - Gemini: models/gemini.md
+      - DeepSeek: models/deepseek.md
+      - Qwen: models/qwen.md
+      - Llama: models/llama.md
+      - Mistral: models/mistral.md
+      - Grok: models/grok.md
+      - Cohere: models/cohere.md
   - Example Projects:
       - Overview: projects/INDEX.md
       - Coding Agent: projects/coding-agent.md

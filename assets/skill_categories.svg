@@ -16,7 +16,7 @@
 
   <rect x="135" y="210" width="150" height="90" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
   <text x="210" y="250" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#a855f7" text-anchor="middle">Models</text>
-  <text x="210" y="275" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">OpenAI, Anthropic, Gemini</text>
+  <text x="210" y="275" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">EverestQ, Claude, OpenAI</text>
 
   <rect x="315" y="210" width="150" height="90" rx="8" fill="#1e293b" stroke="#ec4899" stroke-width="2" />
   <text x="390" y="250" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#ec4899" text-anchor="middle">Business</text>

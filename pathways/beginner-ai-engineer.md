@@ -23,7 +23,7 @@ Ensure the model returns raw JSON data instead of text paragraphs.
 
 ### 3. Model APIs and Tool Definitions
 
-- Making your first client requests to OpenAI, Anthropic, or local model endpoints.
+- Making your first client requests to EverestQ, OpenAI, Anthropic, or local model endpoints.
 - Defining a basic JSON tool schema to let the model request math calculations or file readings.
 
 ---

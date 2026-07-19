@@ -6,7 +6,13 @@ Different Large Language Models have distinct behaviors, context limits, and rea
 
 ## 🤖 Model-Specific Instructions
 
-### 1. Anthropic Claude (3.5 Sonnet / Opus)
+### 1. EverestQ (Native Model)
+
+EverestQ is the native model of the RCS platform. It excels in complex multi-step reasoning, strict negative constraint adherence, and surgical code modifications.
+
+- **Tuning**: Use strict XML tag structures to isolate system configurations. Set the temperature to `0.0` for code-writing and logical reasoning. Optimize KV caching at the serving layer using PagedAttention to maintain rapid throughput.
+
+### 2. Anthropic Claude (3.5 Sonnet / Opus)
 
 Claude is highly analytical and follows system instructions closely, but can occasionally over-explain.
 

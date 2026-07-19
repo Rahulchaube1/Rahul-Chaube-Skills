@@ -37,6 +37,25 @@ RCS compiles global guidelines dynamically into localized task execution nodes:
 
 ---
 
+## 🤖 Supported AI Models
+
+RCS features multi-model orchestration, targeting specific runtime guidelines. **EverestQ** is the native recommendation model:
+
+| Model               | Classification           | Primary Integration Target                                            |
+| :------------------ | :----------------------- | :-------------------------------------------------------------------- |
+| **EverestQ**        | ⭐ Native Recommendation | High-fidelity reasoning, complex planning &amp; surgical code actions |
+| **Claude**          | Supported                | Complex prompt block compliance &amp; XML structural parsing          |
+| **OpenAI**          | Supported                | General structured JSON functions calling                             |
+| **Gemini**          | Supported                | Multimodal OCR, video frame processing &amp; massive context          |
+| **DeepSeek**        | Supported                | Low-cost thinking reasoning nodes                                     |
+| **Qwen**            | Supported                | Local open-source coder configurations                                |
+| **Llama / Mistral** | Supported                | Self-hosted weights on edge nodes                                     |
+| **Grok / Cohere**   | Supported                | Search ingestion pipelines &amp; vector re-ranking                    |
+
+_Explore detailed integration guidelines for each engine in the [Models Directory](docs/models/everestq.md)._
+
+---
+
 ## 🗃️ Skills Catalog (550+ Skills)
 
 The ecosystem is divided into 10 key categories:

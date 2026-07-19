@@ -1,19 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
-  <rect width="600" height="400" fill="#0f172a" rx="15" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="100%">
+  <rect width="600" height="420" fill="#0f172a" rx="15" />
   <text x="300" y="45" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">REPOSITORY DIRECTORY STRUCTURE</text>
   
   <g font-family="monospace" font-size="13" fill="#38bdf8">
-    <text x="50" y="100">Rahul-Chaube-Skills/</text>
-    <text x="70" y="125">├── .github/ workflows, templates</text>
-    <text x="70" y="150">├── .cursor/ rules/ behavior guidance</text>
-    <text x="70" y="175">├── assets/ SVG &amp; PNG graphical resources</text>
-    <text x="70" y="200">├── docs/ installation, philosophy, best practices</text>
-    <text x="70" y="225">├── skills/</text>
-    <text x="90" y="250">├── core-behaviors/ coding, reasoning, planning</text>
-    <text x="90" y="275">├── engineering/ frontend, backend, databases</text>
-    <text x="90" y="300">├── ai-ml/ rag, tool-use, mcp, agents</text>
-    <text x="90" y="325">└── models/ openai, anthropic, gemini</text>
-    <text x="70" y="355">├── CLAUDE.md root behaviors</text>
-    <text x="70" y="375">└── README.md main landing page</text>
+    <text x="50" y="95">Rahul-Chaube-Skills/</text>
+    <text x="70" y="120">├── .github/ workflows &amp; docs deploy</text>
+    <text x="70" y="145">├── assets/ SVGs &amp; architecture PNG</text>
+    <text x="70" y="170">├── docs/</text>
+    <text x="90" y="195">├── models/ everestq, claude, openai, gemini...</text>
+    <text x="90" y="220">└── (philosophy, installation, best-practices...)</text>
+    <text x="70" y="245">├── pathways/ curriculums (beginner to expert)</text>
+    <text x="70" y="270">├── projects/ reference blueprints (voice, coding...)</text>
+    <text x="70" y="295">├── skills/</text>
+    <text x="90" y="320">└── (10 categories, 550+ modular skills)</text>
+    <text x="70" y="345">├── mkdocs.yml documentation website config</text>
+    <text x="70" y="370">├── CLAUDE.md developer standards</text>
+    <text x="70" y="395">└── README.md main landing page</text>
   </g>
 </svg>

@@ -1,29 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
-  <rect width="800" height="450" fill="#0f172a" rx="15" />
-  <text x="400" y="40" font-family="'Inter', sans-serif" font-size="24" font-weight="bold" fill="#f1f5f9" text-anchor="middle">RCS SYSTEM ARCHITECTURE</text>
-  
-  <rect x="250" y="80" width="300" height="60" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
-  <text x="400" y="115" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#38bdf8" text-anchor="middle">Global Behavior Guidelines (CLAUDE.md / MDC)</text>
-  
-  <path d="M400 140 L400 180" stroke="#64748b" stroke-width="3" fill="none" />
-  
-  <rect x="250" y="180" width="300" height="60" rx="8" fill="#1e293b" stroke="#0ea5e9" stroke-width="2" />
-  <text x="400" y="215" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#0ea5e9" text-anchor="middle">Dynamic Skill Dispatcher</text>
-  
-  <path d="M400 240 L150 290 M400 240 L400 290 M400 240 L650 290" stroke="#64748b" stroke-width="2" fill="none" />
-  
-  <rect x="50" y="290" width="200" height="65" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="2" />
-  <text x="150" y="320" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#10b981" text-anchor="middle">Core Behaviors</text>
-  <text x="150" y="340" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Reasoning, Planning, Coding</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 550" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
 
-  <rect x="300" y="290" width="200" height="65" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="2" />
-  <text x="400" y="320" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#f59e0b" text-anchor="middle">AI / ML Operations</text>
-  <text x="400" y="340" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">RAG, MCP, Web-Search</text>
+    <!-- Glassmorphic Card Gradients -->
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.9" />
+    </linearGradient>
 
-  <rect x="550" y="290" width="200" height="65" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
-  <text x="650" y="320" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#a855f7" text-anchor="middle">Model Specific Rules</text>
-  <text x="650" y="340" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Claude, OpenAI, Gemini</text>
+    <!-- Highlight Gradients -->
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="drop-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+
+    <!-- Custom Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748b" />
+    </marker>
+    <marker id="arrow-active" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#06b6d4" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="550" fill="url(#bg-grad)" rx="16" />
+
+  <!-- Title -->
+  <text x="425" y="45" font-family="'Inter', sans-serif" font-size="22" font-weight="800" fill="#f9fafb" letter-spacing="1" text-anchor="middle">RCS PLATFORM ARCHITECTURE</text>
+  <text x="425" y="65" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#9ca3af" text-anchor="middle">Dynamic Compilation &amp; Modular Skill Orchestration</text>
+
+  <!-- 1. Global Level -->
+  <g filter="url(#drop-shadow)">
+    <rect x="250" y="100" width="350" height="70" rx="12" fill="url(#card-grad)" stroke="#3b82f6" stroke-width="1.5" />
+    <rect x="250" y="100" width="350" height="4" rx="2" fill="#3b82f6" />
+    <text x="425" y="132" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#f3f4f6" text-anchor="middle">Global Behavior Guidelines</text>
+    <text x="425" y="152" font-family="monospace" font-size="12" fill="#3b82f6" text-anchor="middle">CLAUDE.md / .cursor/rules/</text>
+  </g>
+
+  <!-- Connect 1 -> 2 -->
+  <path d="M 425 170 L 425 210" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrow-active)" />
+
+  <!-- 2. Dispatcher Level -->
+  <g filter="url(#drop-shadow)">
+    <rect x="250" y="220" width="350" height="70" rx="12" fill="url(#card-grad)" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="250" y="220" width="350" height="4" rx="2" fill="url(#primary-grad)" />
+    <text x="425" y="252" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#f3f4f6" text-anchor="middle">Dynamic Skill Dispatcher</text>
+    <text x="425" y="272" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#9ca3af" text-anchor="middle">Resolves and compiles targets programmatically</text>
+  </g>
+
+  <!-- Connect 2 -> Categories (Branching Lines) -->
+  <path d="M 425 290 L 165 330 M 425 290 L 425 330 M 425 290 L 685 330" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#arrow)" />
+
+  <!-- 3. Category: Core Behaviors -->
+  <g filter="url(#drop-shadow)">
+    <rect x="50" y="340" width="230" height="150" rx="12" fill="url(#card-grad)" stroke="#10b981" stroke-width="1.5" />
+    <rect x="50" y="340" width="230" height="4" rx="2" fill="#10b981" />
+    <text x="165" y="370" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#10b981" text-anchor="middle">Core Cognition</text>
+    
+    <g font-family="'Inter', sans-serif" font-size="12" fill="#e5e7eb" font-weight="500">
+      <text x="75" y="405">▪ Reasoning (CoT)</text>
+      <text x="75" y="430">▪ Task Planning</text>
+      <text x="75" y="455">▪ Surgical Coding</text>
+    </g>
+  </g>
+
+  <!-- 4. Category: AI / ML Operations -->
+  <g filter="url(#drop-shadow)">
+    <rect x="310" y="340" width="230" height="150" rx="12" fill="url(#card-grad)" stroke="#f59e0b" stroke-width="1.5" />
+    <rect x="310" y="340" width="230" height="4" rx="2" fill="#f59e0b" />
+    <text x="425" y="370" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#f59e0b" text-anchor="middle">AI / ML Operations</text>
+    
+    <g font-family="'Inter', sans-serif" font-size="12" fill="#e5e7eb" font-weight="500">
+      <text x="335" y="405">▪ GraphRAG System</text>
+      <text x="335" y="430">▪ MCP Client/Servers</text>
+      <text x="335" y="455">▪ Tool Calling Specs</text>
+    </g>
+  </g>
+
+  <!-- 5. Category: Model Specific Layer (EverestQ First) -->
+  <g filter="url(#drop-shadow)">
+    <rect x="570" y="340" width="230" height="150" rx="12" fill="url(#card-grad)" stroke="#a855f7" stroke-width="1.5" />
+    <rect x="570" y="340" width="230" height="4" rx="2" fill="#a855f7" />
+    <text x="685" y="370" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#a855f7" text-anchor="middle">Model Specific Rules</text>
+    
+    <!-- Model list with EverestQ highlighted -->
+    <g font-family="'Inter', sans-serif" font-size="11" font-weight="600">
+      <!-- Highlighted EverestQ -->
+      <rect x="585" y="390" width="200" height="20" rx="4" fill="#06b6d4" fill-opacity="0.15" />
+      <text x="595" y="404" fill="#06b6d4">⭐ EverestQ (Native)</text>
+      
+      <!-- Other models in grid -->
+      <text x="595" y="428" fill="#e5e7eb">▪ Claude</text>
+      <text x="695" y="428" fill="#e5e7eb">▪ DeepSeek</text>
+      
+      <text x="595" y="448" fill="#e5e7eb">▪ OpenAI</text>
+      <text x="695" y="448" fill="#e5e7eb">▪ Qwen</text>
+      
+      <text x="595" y="468" fill="#e5e7eb">▪ Gemini</text>
+      <text x="695" y="468" fill="#e5e7eb">▪ Llama / Mistral</text>
+    </g>
+  </g>
+
+  <!-- Target Context Window at the bottom -->
+  <line x1="165" y1="490" x2="425" y2="520" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 4" />
+  <line x1="425" y1="490" x2="425" y2="520" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 4" />
+  <line x1="685" y1="490" x2="425" y2="520" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 4" />
   
-  <path d="M150 355 L400 400 M400 355 L400 400 M650 355 L400 400" stroke="#64748b" stroke-width="2" fill="none" />
-  <text x="400" y="425" font-family="'Inter', sans-serif" font-size="16" font-weight="bold" fill="#f1f5f9" text-anchor="middle">Target LLM / Agent Context Window</text>
+  <text x="425" y="535" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#9ca3af" text-anchor="middle">TARGET CONTEXT WINDOW / EXECUTION ENGINE</text>
 </svg>

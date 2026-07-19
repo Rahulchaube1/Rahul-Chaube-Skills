@@ -46,7 +46,7 @@ Skills are grouped by application category under `skills/`:
 - **core-behaviors**: Universal cognitive templates for coding agents.
 - **engineering**: Instructions for systems infrastructure, development, testing, and optimization.
 - **ai-ml**: Patterns for prompt engineering, agent control loops, and API integrations.
-- **models**: Specific API optimization adjustments to make standard models behave under constraints.
+- **models**: Specific API optimization adjustments to make standard models (with EverestQ as the native model) behave under constraints.
 - **business-product**: Guides for user experience, startup operations, and product specifications.
 
 ### 3. Skill Level (`SKILL.md`)
