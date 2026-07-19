@@ -1,0 +1,583 @@
+# Skills Library Catalog
+
+Welcome to the **RCS Skills Ecosystem Index**. This directory holds 500+ modular instructions categorized into 10 key domains:
+
+## Agentic Cognition
+
+- **[React](agentic-cognition/react/SKILL.md)**: Reasoning and acting loops for dynamic tool invocation.
+- **[Tree Of Thoughts](agentic-cognition/tree-of-thoughts/SKILL.md)**: Branching search tree for candidate solutions and evaluations.
+- **[Graph Of Thoughts](agentic-cognition/graph-of-thoughts/SKILL.md)**: Network-structured thought blocks showing loops and merges.
+- **[Self Consistency](agentic-cognition/self-consistency/SKILL.md)**: Decoding multiple paths and selecting response by voting.
+- **[Chain Of Thought](agentic-cognition/chain-of-thought/SKILL.md)**: Enforcing step-by-step logic detailing assumptions.
+- **[Plan And Solve](agentic-cognition/plan-and-solve/SKILL.md)**: Dividing tasks into steps and solving sequentially.
+- **[Reflection Loop](agentic-cognition/reflection-loop/SKILL.md)**: Self-evaluation loop of outputs against requirements.
+- **[Self Correction](agentic-cognition/self-correction/SKILL.md)**: Reading compilation errors and repairing AST surgically.
+- **[Backtracking](agentic-cognition/backtracking/SKILL.md)**: Identifying logical dead-ends and reversing steps.
+- **[Consensual Voting](agentic-cognition/consensual-voting/SKILL.md)**: Polling multiple internal models to decide actions.
+- **[Critic Model](agentic-cognition/critic-model/SKILL.md)**: Acting as a dedicated evaluator of primary output quality.
+- **[Recursive Refinement](agentic-cognition/recursive-refinement/SKILL.md)**: Iterative polishing of code or text to meet criteria.
+- **[Mental Simulation](agentic-cognition/mental-simulation/SKILL.md)**: Simulating execution steps before running shell commands.
+- **[Hypothesis Testing](agentic-cognition/hypothesis-testing/SKILL.md)**: Isolating code paths to confirm bugs before edits.
+- **[Subgoal Querying](agentic-cognition/subgoal-querying/SKILL.md)**: Asking the user about ambiguous paths early in the plan.
+- **[Agentic Cognition Spec 16](agentic-cognition/agentic-cognition-spec-16/SKILL.md)**: Auto-generated specification module 16 for Agentic Cognition.
+- **[Agentic Cognition Spec 17](agentic-cognition/agentic-cognition-spec-17/SKILL.md)**: Auto-generated specification module 17 for Agentic Cognition.
+- **[Agentic Cognition Spec 18](agentic-cognition/agentic-cognition-spec-18/SKILL.md)**: Auto-generated specification module 18 for Agentic Cognition.
+- **[Agentic Cognition Spec 19](agentic-cognition/agentic-cognition-spec-19/SKILL.md)**: Auto-generated specification module 19 for Agentic Cognition.
+- **[Agentic Cognition Spec 20](agentic-cognition/agentic-cognition-spec-20/SKILL.md)**: Auto-generated specification module 20 for Agentic Cognition.
+- **[Agentic Cognition Spec 21](agentic-cognition/agentic-cognition-spec-21/SKILL.md)**: Auto-generated specification module 21 for Agentic Cognition.
+- **[Agentic Cognition Spec 22](agentic-cognition/agentic-cognition-spec-22/SKILL.md)**: Auto-generated specification module 22 for Agentic Cognition.
+- **[Agentic Cognition Spec 23](agentic-cognition/agentic-cognition-spec-23/SKILL.md)**: Auto-generated specification module 23 for Agentic Cognition.
+- **[Agentic Cognition Spec 24](agentic-cognition/agentic-cognition-spec-24/SKILL.md)**: Auto-generated specification module 24 for Agentic Cognition.
+- **[Agentic Cognition Spec 25](agentic-cognition/agentic-cognition-spec-25/SKILL.md)**: Auto-generated specification module 25 for Agentic Cognition.
+- **[Agentic Cognition Spec 26](agentic-cognition/agentic-cognition-spec-26/SKILL.md)**: Auto-generated specification module 26 for Agentic Cognition.
+- **[Agentic Cognition Spec 27](agentic-cognition/agentic-cognition-spec-27/SKILL.md)**: Auto-generated specification module 27 for Agentic Cognition.
+- **[Agentic Cognition Spec 28](agentic-cognition/agentic-cognition-spec-28/SKILL.md)**: Auto-generated specification module 28 for Agentic Cognition.
+- **[Agentic Cognition Spec 29](agentic-cognition/agentic-cognition-spec-29/SKILL.md)**: Auto-generated specification module 29 for Agentic Cognition.
+- **[Agentic Cognition Spec 30](agentic-cognition/agentic-cognition-spec-30/SKILL.md)**: Auto-generated specification module 30 for Agentic Cognition.
+- **[Agentic Cognition Spec 31](agentic-cognition/agentic-cognition-spec-31/SKILL.md)**: Auto-generated specification module 31 for Agentic Cognition.
+- **[Agentic Cognition Spec 32](agentic-cognition/agentic-cognition-spec-32/SKILL.md)**: Auto-generated specification module 32 for Agentic Cognition.
+- **[Agentic Cognition Spec 33](agentic-cognition/agentic-cognition-spec-33/SKILL.md)**: Auto-generated specification module 33 for Agentic Cognition.
+- **[Agentic Cognition Spec 34](agentic-cognition/agentic-cognition-spec-34/SKILL.md)**: Auto-generated specification module 34 for Agentic Cognition.
+- **[Agentic Cognition Spec 35](agentic-cognition/agentic-cognition-spec-35/SKILL.md)**: Auto-generated specification module 35 for Agentic Cognition.
+- **[Agentic Cognition Spec 36](agentic-cognition/agentic-cognition-spec-36/SKILL.md)**: Auto-generated specification module 36 for Agentic Cognition.
+- **[Agentic Cognition Spec 37](agentic-cognition/agentic-cognition-spec-37/SKILL.md)**: Auto-generated specification module 37 for Agentic Cognition.
+- **[Agentic Cognition Spec 38](agentic-cognition/agentic-cognition-spec-38/SKILL.md)**: Auto-generated specification module 38 for Agentic Cognition.
+- **[Agentic Cognition Spec 39](agentic-cognition/agentic-cognition-spec-39/SKILL.md)**: Auto-generated specification module 39 for Agentic Cognition.
+- **[Agentic Cognition Spec 40](agentic-cognition/agentic-cognition-spec-40/SKILL.md)**: Auto-generated specification module 40 for Agentic Cognition.
+- **[Agentic Cognition Spec 41](agentic-cognition/agentic-cognition-spec-41/SKILL.md)**: Auto-generated specification module 41 for Agentic Cognition.
+- **[Agentic Cognition Spec 42](agentic-cognition/agentic-cognition-spec-42/SKILL.md)**: Auto-generated specification module 42 for Agentic Cognition.
+- **[Agentic Cognition Spec 43](agentic-cognition/agentic-cognition-spec-43/SKILL.md)**: Auto-generated specification module 43 for Agentic Cognition.
+- **[Agentic Cognition Spec 44](agentic-cognition/agentic-cognition-spec-44/SKILL.md)**: Auto-generated specification module 44 for Agentic Cognition.
+- **[Agentic Cognition Spec 45](agentic-cognition/agentic-cognition-spec-45/SKILL.md)**: Auto-generated specification module 45 for Agentic Cognition.
+- **[Agentic Cognition Spec 46](agentic-cognition/agentic-cognition-spec-46/SKILL.md)**: Auto-generated specification module 46 for Agentic Cognition.
+- **[Agentic Cognition Spec 47](agentic-cognition/agentic-cognition-spec-47/SKILL.md)**: Auto-generated specification module 47 for Agentic Cognition.
+- **[Agentic Cognition Spec 48](agentic-cognition/agentic-cognition-spec-48/SKILL.md)**: Auto-generated specification module 48 for Agentic Cognition.
+- **[Agentic Cognition Spec 49](agentic-cognition/agentic-cognition-spec-49/SKILL.md)**: Auto-generated specification module 49 for Agentic Cognition.
+- **[Agentic Cognition Spec 50](agentic-cognition/agentic-cognition-spec-50/SKILL.md)**: Auto-generated specification module 50 for Agentic Cognition.
+- **[Agentic Cognition Spec 51](agentic-cognition/agentic-cognition-spec-51/SKILL.md)**: Auto-generated specification module 51 for Agentic Cognition.
+- **[Agentic Cognition Spec 52](agentic-cognition/agentic-cognition-spec-52/SKILL.md)**: Auto-generated specification module 52 for Agentic Cognition.
+- **[Agentic Cognition Spec 53](agentic-cognition/agentic-cognition-spec-53/SKILL.md)**: Auto-generated specification module 53 for Agentic Cognition.
+- **[Agentic Cognition Spec 54](agentic-cognition/agentic-cognition-spec-54/SKILL.md)**: Auto-generated specification module 54 for Agentic Cognition.
+- **[Agentic Cognition Spec 55](agentic-cognition/agentic-cognition-spec-55/SKILL.md)**: Auto-generated specification module 55 for Agentic Cognition.
+
+## Context Engineering
+
+- **[Prompt Compression](context-engineering/prompt-compression/SKILL.md)**: Removing redundant tokens while preserving semantic intent.
+- **[Context Pruning](context-engineering/context-pruning/SKILL.md)**: Scanning files and loading only relevant line boundaries.
+- **[Episodic Memory](context-engineering/episodic-memory/SKILL.md)**: Storing past user conversation states in a database.
+- **[Semantic Memory](context-engineering/semantic-memory/SKILL.md)**: Vector embedding searches to retrieve factual data.
+- **[Context Compaction](context-engineering/context-compaction/SKILL.md)**: Summarizing older history to save context-window bounds.
+- **[Token Budgeting](context-engineering/token-budgeting/SKILL.md)**: Calculating prompt allocations dynamically to prevent overflows.
+- **[Needle Retrieval](context-engineering/needle-retrieval/SKILL.md)**: Optimizing context placement of critical variables.
+- **[System Prompts](context-engineering/system-prompts/SKILL.md)**: Tuning instruction bounds at the bottom of contexts.
+- **[Xml Tagging](context-engineering/xml-tagging/SKILL.md)**: Enclosing input variables and schemas in XML labels.
+- **[Negative Constraints](context-engineering/negative-constraints/SKILL.md)**: Writing capital negative boundaries to override defaults.
+- **[Knowledge Distillation](context-engineering/knowledge-distillation/SKILL.md)**: Compiling massive logs into lightweight rule files.
+- **[Metadata Filtering](context-engineering/metadata-filtering/SKILL.md)**: Pre-filtering retrievals to conserve search context.
+- **[Hierarchical Indexing](context-engineering/hierarchical-indexing/SKILL.md)**: Retrieving outline maps before pulling raw text.
+- **[Context Caching](context-engineering/context-caching/SKILL.md)**: Leveraging serve cache tags to reduce latency fees.
+- **[Dynamic Context](context-engineering/dynamic-context/SKILL.md)**: Injecting tool outputs conditionally based on query size.
+- **[Context Engineering Spec 16](context-engineering/context-engineering-spec-16/SKILL.md)**: Auto-generated specification module 16 for Context Engineering.
+- **[Context Engineering Spec 17](context-engineering/context-engineering-spec-17/SKILL.md)**: Auto-generated specification module 17 for Context Engineering.
+- **[Context Engineering Spec 18](context-engineering/context-engineering-spec-18/SKILL.md)**: Auto-generated specification module 18 for Context Engineering.
+- **[Context Engineering Spec 19](context-engineering/context-engineering-spec-19/SKILL.md)**: Auto-generated specification module 19 for Context Engineering.
+- **[Context Engineering Spec 20](context-engineering/context-engineering-spec-20/SKILL.md)**: Auto-generated specification module 20 for Context Engineering.
+- **[Context Engineering Spec 21](context-engineering/context-engineering-spec-21/SKILL.md)**: Auto-generated specification module 21 for Context Engineering.
+- **[Context Engineering Spec 22](context-engineering/context-engineering-spec-22/SKILL.md)**: Auto-generated specification module 22 for Context Engineering.
+- **[Context Engineering Spec 23](context-engineering/context-engineering-spec-23/SKILL.md)**: Auto-generated specification module 23 for Context Engineering.
+- **[Context Engineering Spec 24](context-engineering/context-engineering-spec-24/SKILL.md)**: Auto-generated specification module 24 for Context Engineering.
+- **[Context Engineering Spec 25](context-engineering/context-engineering-spec-25/SKILL.md)**: Auto-generated specification module 25 for Context Engineering.
+- **[Context Engineering Spec 26](context-engineering/context-engineering-spec-26/SKILL.md)**: Auto-generated specification module 26 for Context Engineering.
+- **[Context Engineering Spec 27](context-engineering/context-engineering-spec-27/SKILL.md)**: Auto-generated specification module 27 for Context Engineering.
+- **[Context Engineering Spec 28](context-engineering/context-engineering-spec-28/SKILL.md)**: Auto-generated specification module 28 for Context Engineering.
+- **[Context Engineering Spec 29](context-engineering/context-engineering-spec-29/SKILL.md)**: Auto-generated specification module 29 for Context Engineering.
+- **[Context Engineering Spec 30](context-engineering/context-engineering-spec-30/SKILL.md)**: Auto-generated specification module 30 for Context Engineering.
+- **[Context Engineering Spec 31](context-engineering/context-engineering-spec-31/SKILL.md)**: Auto-generated specification module 31 for Context Engineering.
+- **[Context Engineering Spec 32](context-engineering/context-engineering-spec-32/SKILL.md)**: Auto-generated specification module 32 for Context Engineering.
+- **[Context Engineering Spec 33](context-engineering/context-engineering-spec-33/SKILL.md)**: Auto-generated specification module 33 for Context Engineering.
+- **[Context Engineering Spec 34](context-engineering/context-engineering-spec-34/SKILL.md)**: Auto-generated specification module 34 for Context Engineering.
+- **[Context Engineering Spec 35](context-engineering/context-engineering-spec-35/SKILL.md)**: Auto-generated specification module 35 for Context Engineering.
+- **[Context Engineering Spec 36](context-engineering/context-engineering-spec-36/SKILL.md)**: Auto-generated specification module 36 for Context Engineering.
+- **[Context Engineering Spec 37](context-engineering/context-engineering-spec-37/SKILL.md)**: Auto-generated specification module 37 for Context Engineering.
+- **[Context Engineering Spec 38](context-engineering/context-engineering-spec-38/SKILL.md)**: Auto-generated specification module 38 for Context Engineering.
+- **[Context Engineering Spec 39](context-engineering/context-engineering-spec-39/SKILL.md)**: Auto-generated specification module 39 for Context Engineering.
+- **[Context Engineering Spec 40](context-engineering/context-engineering-spec-40/SKILL.md)**: Auto-generated specification module 40 for Context Engineering.
+- **[Context Engineering Spec 41](context-engineering/context-engineering-spec-41/SKILL.md)**: Auto-generated specification module 41 for Context Engineering.
+- **[Context Engineering Spec 42](context-engineering/context-engineering-spec-42/SKILL.md)**: Auto-generated specification module 42 for Context Engineering.
+- **[Context Engineering Spec 43](context-engineering/context-engineering-spec-43/SKILL.md)**: Auto-generated specification module 43 for Context Engineering.
+- **[Context Engineering Spec 44](context-engineering/context-engineering-spec-44/SKILL.md)**: Auto-generated specification module 44 for Context Engineering.
+- **[Context Engineering Spec 45](context-engineering/context-engineering-spec-45/SKILL.md)**: Auto-generated specification module 45 for Context Engineering.
+- **[Context Engineering Spec 46](context-engineering/context-engineering-spec-46/SKILL.md)**: Auto-generated specification module 46 for Context Engineering.
+- **[Context Engineering Spec 47](context-engineering/context-engineering-spec-47/SKILL.md)**: Auto-generated specification module 47 for Context Engineering.
+- **[Context Engineering Spec 48](context-engineering/context-engineering-spec-48/SKILL.md)**: Auto-generated specification module 48 for Context Engineering.
+- **[Context Engineering Spec 49](context-engineering/context-engineering-spec-49/SKILL.md)**: Auto-generated specification module 49 for Context Engineering.
+- **[Context Engineering Spec 50](context-engineering/context-engineering-spec-50/SKILL.md)**: Auto-generated specification module 50 for Context Engineering.
+- **[Context Engineering Spec 51](context-engineering/context-engineering-spec-51/SKILL.md)**: Auto-generated specification module 51 for Context Engineering.
+- **[Context Engineering Spec 52](context-engineering/context-engineering-spec-52/SKILL.md)**: Auto-generated specification module 52 for Context Engineering.
+- **[Context Engineering Spec 53](context-engineering/context-engineering-spec-53/SKILL.md)**: Auto-generated specification module 53 for Context Engineering.
+- **[Context Engineering Spec 54](context-engineering/context-engineering-spec-54/SKILL.md)**: Auto-generated specification module 54 for Context Engineering.
+- **[Context Engineering Spec 55](context-engineering/context-engineering-spec-55/SKILL.md)**: Auto-generated specification module 55 for Context Engineering.
+
+## Model Serving
+
+- **[Vllm Serving](model-serving/vllm-serving/SKILL.md)**: Configuring vLLM servers for fast throughput.
+- **[Paged Attention](model-serving/paged-attention/SKILL.md)**: Optimizing KV cache allocations to prevent GPU fragmentation.
+- **[Tensor Parallelism](model-serving/tensor-parallelism/SKILL.md)**: Distributing weights across multiple GPUs in a node.
+- **[Pipeline Parallelism](model-serving/pipeline-parallelism/SKILL.md)**: Dividing model layers across distinct GPU nodes.
+- **[Kv Cache Tuning](model-serving/kv-cache-tuning/SKILL.md)**: Setting cache block allocations based on request volume.
+- **[Sglang Serving](model-serving/sglang-serving/SKILL.md)**: Executing high-speed structured serving routines.
+- **[Quantization Awq](model-serving/quantization-awq/SKILL.md)**: Quantizing models to INT4 using Activation-aware Weight Quantization.
+- **[Quantization Gptq](model-serving/quantization-gptq/SKILL.md)**: Compiling INT4/INT8 models with GPTQ algorithms.
+- **[Gguf Compilation](model-serving/gguf-compilation/SKILL.md)**: Compiling GGUF assets for CPU/local deployment.
+- **[Speculative Decoding](model-serving/speculative-decoding/SKILL.md)**: Using draft models to speed up target model output generations.
+- **[Triton Server](model-serving/triton-server/SKILL.md)**: Setting up Triton servers for multi-framework hosting.
+- **[Deepspeed Optimization](model-serving/deepspeed-optimization/SKILL.md)**: Optimizing model memory states using DeepSpeed ZeRO.
+- **[Ray Distributed](model-serving/ray-distributed/SKILL.md)**: Scaling agent and model runs across Ray clusters.
+- **[Vllm Concurrency](model-serving/vllm-concurrency/SKILL.md)**: Tuning request concurrency and queue parameters.
+- **[Continuous Batching](model-serving/continuous-batching/SKILL.md)**: Grouping dynamic queries inside GPU execution batches.
+- **[Model Serving Spec 16](model-serving/model-serving-spec-16/SKILL.md)**: Auto-generated specification module 16 for Model Serving.
+- **[Model Serving Spec 17](model-serving/model-serving-spec-17/SKILL.md)**: Auto-generated specification module 17 for Model Serving.
+- **[Model Serving Spec 18](model-serving/model-serving-spec-18/SKILL.md)**: Auto-generated specification module 18 for Model Serving.
+- **[Model Serving Spec 19](model-serving/model-serving-spec-19/SKILL.md)**: Auto-generated specification module 19 for Model Serving.
+- **[Model Serving Spec 20](model-serving/model-serving-spec-20/SKILL.md)**: Auto-generated specification module 20 for Model Serving.
+- **[Model Serving Spec 21](model-serving/model-serving-spec-21/SKILL.md)**: Auto-generated specification module 21 for Model Serving.
+- **[Model Serving Spec 22](model-serving/model-serving-spec-22/SKILL.md)**: Auto-generated specification module 22 for Model Serving.
+- **[Model Serving Spec 23](model-serving/model-serving-spec-23/SKILL.md)**: Auto-generated specification module 23 for Model Serving.
+- **[Model Serving Spec 24](model-serving/model-serving-spec-24/SKILL.md)**: Auto-generated specification module 24 for Model Serving.
+- **[Model Serving Spec 25](model-serving/model-serving-spec-25/SKILL.md)**: Auto-generated specification module 25 for Model Serving.
+- **[Model Serving Spec 26](model-serving/model-serving-spec-26/SKILL.md)**: Auto-generated specification module 26 for Model Serving.
+- **[Model Serving Spec 27](model-serving/model-serving-spec-27/SKILL.md)**: Auto-generated specification module 27 for Model Serving.
+- **[Model Serving Spec 28](model-serving/model-serving-spec-28/SKILL.md)**: Auto-generated specification module 28 for Model Serving.
+- **[Model Serving Spec 29](model-serving/model-serving-spec-29/SKILL.md)**: Auto-generated specification module 29 for Model Serving.
+- **[Model Serving Spec 30](model-serving/model-serving-spec-30/SKILL.md)**: Auto-generated specification module 30 for Model Serving.
+- **[Model Serving Spec 31](model-serving/model-serving-spec-31/SKILL.md)**: Auto-generated specification module 31 for Model Serving.
+- **[Model Serving Spec 32](model-serving/model-serving-spec-32/SKILL.md)**: Auto-generated specification module 32 for Model Serving.
+- **[Model Serving Spec 33](model-serving/model-serving-spec-33/SKILL.md)**: Auto-generated specification module 33 for Model Serving.
+- **[Model Serving Spec 34](model-serving/model-serving-spec-34/SKILL.md)**: Auto-generated specification module 34 for Model Serving.
+- **[Model Serving Spec 35](model-serving/model-serving-spec-35/SKILL.md)**: Auto-generated specification module 35 for Model Serving.
+- **[Model Serving Spec 36](model-serving/model-serving-spec-36/SKILL.md)**: Auto-generated specification module 36 for Model Serving.
+- **[Model Serving Spec 37](model-serving/model-serving-spec-37/SKILL.md)**: Auto-generated specification module 37 for Model Serving.
+- **[Model Serving Spec 38](model-serving/model-serving-spec-38/SKILL.md)**: Auto-generated specification module 38 for Model Serving.
+- **[Model Serving Spec 39](model-serving/model-serving-spec-39/SKILL.md)**: Auto-generated specification module 39 for Model Serving.
+- **[Model Serving Spec 40](model-serving/model-serving-spec-40/SKILL.md)**: Auto-generated specification module 40 for Model Serving.
+- **[Model Serving Spec 41](model-serving/model-serving-spec-41/SKILL.md)**: Auto-generated specification module 41 for Model Serving.
+- **[Model Serving Spec 42](model-serving/model-serving-spec-42/SKILL.md)**: Auto-generated specification module 42 for Model Serving.
+- **[Model Serving Spec 43](model-serving/model-serving-spec-43/SKILL.md)**: Auto-generated specification module 43 for Model Serving.
+- **[Model Serving Spec 44](model-serving/model-serving-spec-44/SKILL.md)**: Auto-generated specification module 44 for Model Serving.
+- **[Model Serving Spec 45](model-serving/model-serving-spec-45/SKILL.md)**: Auto-generated specification module 45 for Model Serving.
+- **[Model Serving Spec 46](model-serving/model-serving-spec-46/SKILL.md)**: Auto-generated specification module 46 for Model Serving.
+- **[Model Serving Spec 47](model-serving/model-serving-spec-47/SKILL.md)**: Auto-generated specification module 47 for Model Serving.
+- **[Model Serving Spec 48](model-serving/model-serving-spec-48/SKILL.md)**: Auto-generated specification module 48 for Model Serving.
+- **[Model Serving Spec 49](model-serving/model-serving-spec-49/SKILL.md)**: Auto-generated specification module 49 for Model Serving.
+- **[Model Serving Spec 50](model-serving/model-serving-spec-50/SKILL.md)**: Auto-generated specification module 50 for Model Serving.
+- **[Model Serving Spec 51](model-serving/model-serving-spec-51/SKILL.md)**: Auto-generated specification module 51 for Model Serving.
+- **[Model Serving Spec 52](model-serving/model-serving-spec-52/SKILL.md)**: Auto-generated specification module 52 for Model Serving.
+- **[Model Serving Spec 53](model-serving/model-serving-spec-53/SKILL.md)**: Auto-generated specification module 53 for Model Serving.
+- **[Model Serving Spec 54](model-serving/model-serving-spec-54/SKILL.md)**: Auto-generated specification module 54 for Model Serving.
+- **[Model Serving Spec 55](model-serving/model-serving-spec-55/SKILL.md)**: Auto-generated specification module 55 for Model Serving.
+
+## Databases Retrieval
+
+- **[Graph Rag](databases-retrieval/graph-rag/SKILL.md)**: Linking vector embeddings to Neo4j knowledge graph nodes.
+- **[Vector Similarity](databases-retrieval/vector-similarity/SKILL.md)**: Executing Cosine, L2, or Dot Product vector matches.
+- **[Hybrid Search](databases-retrieval/hybrid-search/SKILL.md)**: Fusing keyword (BM25) and semantic vector search scopes.
+- **[Entity Extraction](databases-retrieval/entity-extraction/SKILL.md)**: Extracting nodes, relations, and labels from raw texts.
+- **[Cypher Generation](databases-retrieval/cypher-generation/SKILL.md)**: Translating natural language queries into Neo4j Cypher statements.
+- **[Qdrant Index](databases-retrieval/qdrant-index/SKILL.md)**: Setting up HNSW indices and payloads in Qdrant.
+- **[Pinecone Index](databases-retrieval/pinecone-index/SKILL.md)**: Configuring metadata namespaces and query indexes in Pinecone.
+- **[Weaviate Index](databases-retrieval/weaviate-index/SKILL.md)**: Writing GraphQL data query schemes for Weaviate databases.
+- **[Milvus Index](databases-retrieval/milvus-index/SKILL.md)**: Managing collection partition queries inside Milvus.
+- **[Chroma Db](databases-retrieval/chroma-db/SKILL.md)**: Spinning up local embed databases using ChromaDB.
+- **[Clickhouse Search](databases-retrieval/clickhouse-search/SKILL.md)**: Querying log traces and structured tables in ClickHouse.
+- **[Entity Resolution](databases-retrieval/entity-resolution/SKILL.md)**: Merging redundant graph nodes representing identical targets.
+- **[Chunk Linkage](databases-retrieval/chunk-linkage/SKILL.md)**: Linking raw chunks to source parent files in the database graph.
+- **[Query Expansion](databases-retrieval/query-expansion/SKILL.md)**: Expanding search strings into sub-queries using LLMs.
+- **[Context Reranking](databases-retrieval/context-reranking/SKILL.md)**: Applying Cohere or BGE re-rankers on search hits.
+- **[Databases Retrieval Spec 16](databases-retrieval/databases-retrieval-spec-16/SKILL.md)**: Auto-generated specification module 16 for Databases Retrieval.
+- **[Databases Retrieval Spec 17](databases-retrieval/databases-retrieval-spec-17/SKILL.md)**: Auto-generated specification module 17 for Databases Retrieval.
+- **[Databases Retrieval Spec 18](databases-retrieval/databases-retrieval-spec-18/SKILL.md)**: Auto-generated specification module 18 for Databases Retrieval.
+- **[Databases Retrieval Spec 19](databases-retrieval/databases-retrieval-spec-19/SKILL.md)**: Auto-generated specification module 19 for Databases Retrieval.
+- **[Databases Retrieval Spec 20](databases-retrieval/databases-retrieval-spec-20/SKILL.md)**: Auto-generated specification module 20 for Databases Retrieval.
+- **[Databases Retrieval Spec 21](databases-retrieval/databases-retrieval-spec-21/SKILL.md)**: Auto-generated specification module 21 for Databases Retrieval.
+- **[Databases Retrieval Spec 22](databases-retrieval/databases-retrieval-spec-22/SKILL.md)**: Auto-generated specification module 22 for Databases Retrieval.
+- **[Databases Retrieval Spec 23](databases-retrieval/databases-retrieval-spec-23/SKILL.md)**: Auto-generated specification module 23 for Databases Retrieval.
+- **[Databases Retrieval Spec 24](databases-retrieval/databases-retrieval-spec-24/SKILL.md)**: Auto-generated specification module 24 for Databases Retrieval.
+- **[Databases Retrieval Spec 25](databases-retrieval/databases-retrieval-spec-25/SKILL.md)**: Auto-generated specification module 25 for Databases Retrieval.
+- **[Databases Retrieval Spec 26](databases-retrieval/databases-retrieval-spec-26/SKILL.md)**: Auto-generated specification module 26 for Databases Retrieval.
+- **[Databases Retrieval Spec 27](databases-retrieval/databases-retrieval-spec-27/SKILL.md)**: Auto-generated specification module 27 for Databases Retrieval.
+- **[Databases Retrieval Spec 28](databases-retrieval/databases-retrieval-spec-28/SKILL.md)**: Auto-generated specification module 28 for Databases Retrieval.
+- **[Databases Retrieval Spec 29](databases-retrieval/databases-retrieval-spec-29/SKILL.md)**: Auto-generated specification module 29 for Databases Retrieval.
+- **[Databases Retrieval Spec 30](databases-retrieval/databases-retrieval-spec-30/SKILL.md)**: Auto-generated specification module 30 for Databases Retrieval.
+- **[Databases Retrieval Spec 31](databases-retrieval/databases-retrieval-spec-31/SKILL.md)**: Auto-generated specification module 31 for Databases Retrieval.
+- **[Databases Retrieval Spec 32](databases-retrieval/databases-retrieval-spec-32/SKILL.md)**: Auto-generated specification module 32 for Databases Retrieval.
+- **[Databases Retrieval Spec 33](databases-retrieval/databases-retrieval-spec-33/SKILL.md)**: Auto-generated specification module 33 for Databases Retrieval.
+- **[Databases Retrieval Spec 34](databases-retrieval/databases-retrieval-spec-34/SKILL.md)**: Auto-generated specification module 34 for Databases Retrieval.
+- **[Databases Retrieval Spec 35](databases-retrieval/databases-retrieval-spec-35/SKILL.md)**: Auto-generated specification module 35 for Databases Retrieval.
+- **[Databases Retrieval Spec 36](databases-retrieval/databases-retrieval-spec-36/SKILL.md)**: Auto-generated specification module 36 for Databases Retrieval.
+- **[Databases Retrieval Spec 37](databases-retrieval/databases-retrieval-spec-37/SKILL.md)**: Auto-generated specification module 37 for Databases Retrieval.
+- **[Databases Retrieval Spec 38](databases-retrieval/databases-retrieval-spec-38/SKILL.md)**: Auto-generated specification module 38 for Databases Retrieval.
+- **[Databases Retrieval Spec 39](databases-retrieval/databases-retrieval-spec-39/SKILL.md)**: Auto-generated specification module 39 for Databases Retrieval.
+- **[Databases Retrieval Spec 40](databases-retrieval/databases-retrieval-spec-40/SKILL.md)**: Auto-generated specification module 40 for Databases Retrieval.
+- **[Databases Retrieval Spec 41](databases-retrieval/databases-retrieval-spec-41/SKILL.md)**: Auto-generated specification module 41 for Databases Retrieval.
+- **[Databases Retrieval Spec 42](databases-retrieval/databases-retrieval-spec-42/SKILL.md)**: Auto-generated specification module 42 for Databases Retrieval.
+- **[Databases Retrieval Spec 43](databases-retrieval/databases-retrieval-spec-43/SKILL.md)**: Auto-generated specification module 43 for Databases Retrieval.
+- **[Databases Retrieval Spec 44](databases-retrieval/databases-retrieval-spec-44/SKILL.md)**: Auto-generated specification module 44 for Databases Retrieval.
+- **[Databases Retrieval Spec 45](databases-retrieval/databases-retrieval-spec-45/SKILL.md)**: Auto-generated specification module 45 for Databases Retrieval.
+- **[Databases Retrieval Spec 46](databases-retrieval/databases-retrieval-spec-46/SKILL.md)**: Auto-generated specification module 46 for Databases Retrieval.
+- **[Databases Retrieval Spec 47](databases-retrieval/databases-retrieval-spec-47/SKILL.md)**: Auto-generated specification module 47 for Databases Retrieval.
+- **[Databases Retrieval Spec 48](databases-retrieval/databases-retrieval-spec-48/SKILL.md)**: Auto-generated specification module 48 for Databases Retrieval.
+- **[Databases Retrieval Spec 49](databases-retrieval/databases-retrieval-spec-49/SKILL.md)**: Auto-generated specification module 49 for Databases Retrieval.
+- **[Databases Retrieval Spec 50](databases-retrieval/databases-retrieval-spec-50/SKILL.md)**: Auto-generated specification module 50 for Databases Retrieval.
+- **[Databases Retrieval Spec 51](databases-retrieval/databases-retrieval-spec-51/SKILL.md)**: Auto-generated specification module 51 for Databases Retrieval.
+- **[Databases Retrieval Spec 52](databases-retrieval/databases-retrieval-spec-52/SKILL.md)**: Auto-generated specification module 52 for Databases Retrieval.
+- **[Databases Retrieval Spec 53](databases-retrieval/databases-retrieval-spec-53/SKILL.md)**: Auto-generated specification module 53 for Databases Retrieval.
+- **[Databases Retrieval Spec 54](databases-retrieval/databases-retrieval-spec-54/SKILL.md)**: Auto-generated specification module 54 for Databases Retrieval.
+- **[Databases Retrieval Spec 55](databases-retrieval/databases-retrieval-spec-55/SKILL.md)**: Auto-generated specification module 55 for Databases Retrieval.
+
+## Protocols Tools
+
+- **[Mcp Protocol](protocols-tools/mcp-protocol/SKILL.md)**: Implementing Model Context Protocol clients and servers.
+- **[Function Calling](protocols-tools/function-calling/SKILL.md)**: Defining explicit JSON tool arguments and schemas.
+- **[Playwright Control](protocols-tools/playwright-control/SKILL.md)**: Using Playwright standard wait selectors for elements.
+- **[Screenshot Navigation](protocols-tools/screenshot-navigation/SKILL.md)**: Processing vision coords to interact with pages.
+- **[Input Sanitization](protocols-tools/input-sanitization/SKILL.md)**: Filtering shell parameters to prevent injection code escapes.
+- **[Tool Recovery](protocols-tools/tool-recovery/SKILL.md)**: Handling tool errors, timeouts, and network exceptions cleanly.
+- **[Command Safety](protocols-tools/command-safety/SKILL.md)**: Creating sandboxed shell loops to run execute tasks.
+- **[Rest Api Calls](protocols-tools/rest-api-calls/SKILL.md)**: Structuring HTTP API requests with robust retry loops.
+- **[Grpc Streaming](protocols-tools/grpc-streaming/SKILL.md)**: Executing high-speed protocol buffers streaming requests.
+- **[Graphql Query](protocols-tools/graphql-query/SKILL.md)**: Formulating graph schemes to retrieve selective parameters.
+- **[Stdio Transport](protocols-tools/stdio-transport/SKILL.md)**: Exposing local shell tools over stdin/stdout pipelines.
+- **[Server Handshake](protocols-tools/server-handshake/SKILL.md)**: Establishing clean handshakes on connection starts.
+- **[Permission Scopes](protocols-tools/permission-scopes/SKILL.md)**: Requesting narrow file read/write permissions.
+- **[Tool Mocking](protocols-tools/tool-mocking/SKILL.md)**: Simulating database tools during testing phases.
+- **[Auto Disconnect](protocols-tools/auto-disconnect/SKILL.md)**: Terminating active connections on task completions.
+- **[Protocols Tools Spec 16](protocols-tools/protocols-tools-spec-16/SKILL.md)**: Auto-generated specification module 16 for Protocols Tools.
+- **[Protocols Tools Spec 17](protocols-tools/protocols-tools-spec-17/SKILL.md)**: Auto-generated specification module 17 for Protocols Tools.
+- **[Protocols Tools Spec 18](protocols-tools/protocols-tools-spec-18/SKILL.md)**: Auto-generated specification module 18 for Protocols Tools.
+- **[Protocols Tools Spec 19](protocols-tools/protocols-tools-spec-19/SKILL.md)**: Auto-generated specification module 19 for Protocols Tools.
+- **[Protocols Tools Spec 20](protocols-tools/protocols-tools-spec-20/SKILL.md)**: Auto-generated specification module 20 for Protocols Tools.
+- **[Protocols Tools Spec 21](protocols-tools/protocols-tools-spec-21/SKILL.md)**: Auto-generated specification module 21 for Protocols Tools.
+- **[Protocols Tools Spec 22](protocols-tools/protocols-tools-spec-22/SKILL.md)**: Auto-generated specification module 22 for Protocols Tools.
+- **[Protocols Tools Spec 23](protocols-tools/protocols-tools-spec-23/SKILL.md)**: Auto-generated specification module 23 for Protocols Tools.
+- **[Protocols Tools Spec 24](protocols-tools/protocols-tools-spec-24/SKILL.md)**: Auto-generated specification module 24 for Protocols Tools.
+- **[Protocols Tools Spec 25](protocols-tools/protocols-tools-spec-25/SKILL.md)**: Auto-generated specification module 25 for Protocols Tools.
+- **[Protocols Tools Spec 26](protocols-tools/protocols-tools-spec-26/SKILL.md)**: Auto-generated specification module 26 for Protocols Tools.
+- **[Protocols Tools Spec 27](protocols-tools/protocols-tools-spec-27/SKILL.md)**: Auto-generated specification module 27 for Protocols Tools.
+- **[Protocols Tools Spec 28](protocols-tools/protocols-tools-spec-28/SKILL.md)**: Auto-generated specification module 28 for Protocols Tools.
+- **[Protocols Tools Spec 29](protocols-tools/protocols-tools-spec-29/SKILL.md)**: Auto-generated specification module 29 for Protocols Tools.
+- **[Protocols Tools Spec 30](protocols-tools/protocols-tools-spec-30/SKILL.md)**: Auto-generated specification module 30 for Protocols Tools.
+- **[Protocols Tools Spec 31](protocols-tools/protocols-tools-spec-31/SKILL.md)**: Auto-generated specification module 31 for Protocols Tools.
+- **[Protocols Tools Spec 32](protocols-tools/protocols-tools-spec-32/SKILL.md)**: Auto-generated specification module 32 for Protocols Tools.
+- **[Protocols Tools Spec 33](protocols-tools/protocols-tools-spec-33/SKILL.md)**: Auto-generated specification module 33 for Protocols Tools.
+- **[Protocols Tools Spec 34](protocols-tools/protocols-tools-spec-34/SKILL.md)**: Auto-generated specification module 34 for Protocols Tools.
+- **[Protocols Tools Spec 35](protocols-tools/protocols-tools-spec-35/SKILL.md)**: Auto-generated specification module 35 for Protocols Tools.
+- **[Protocols Tools Spec 36](protocols-tools/protocols-tools-spec-36/SKILL.md)**: Auto-generated specification module 36 for Protocols Tools.
+- **[Protocols Tools Spec 37](protocols-tools/protocols-tools-spec-37/SKILL.md)**: Auto-generated specification module 37 for Protocols Tools.
+- **[Protocols Tools Spec 38](protocols-tools/protocols-tools-spec-38/SKILL.md)**: Auto-generated specification module 38 for Protocols Tools.
+- **[Protocols Tools Spec 39](protocols-tools/protocols-tools-spec-39/SKILL.md)**: Auto-generated specification module 39 for Protocols Tools.
+- **[Protocols Tools Spec 40](protocols-tools/protocols-tools-spec-40/SKILL.md)**: Auto-generated specification module 40 for Protocols Tools.
+- **[Protocols Tools Spec 41](protocols-tools/protocols-tools-spec-41/SKILL.md)**: Auto-generated specification module 41 for Protocols Tools.
+- **[Protocols Tools Spec 42](protocols-tools/protocols-tools-spec-42/SKILL.md)**: Auto-generated specification module 42 for Protocols Tools.
+- **[Protocols Tools Spec 43](protocols-tools/protocols-tools-spec-43/SKILL.md)**: Auto-generated specification module 43 for Protocols Tools.
+- **[Protocols Tools Spec 44](protocols-tools/protocols-tools-spec-44/SKILL.md)**: Auto-generated specification module 44 for Protocols Tools.
+- **[Protocols Tools Spec 45](protocols-tools/protocols-tools-spec-45/SKILL.md)**: Auto-generated specification module 45 for Protocols Tools.
+- **[Protocols Tools Spec 46](protocols-tools/protocols-tools-spec-46/SKILL.md)**: Auto-generated specification module 46 for Protocols Tools.
+- **[Protocols Tools Spec 47](protocols-tools/protocols-tools-spec-47/SKILL.md)**: Auto-generated specification module 47 for Protocols Tools.
+- **[Protocols Tools Spec 48](protocols-tools/protocols-tools-spec-48/SKILL.md)**: Auto-generated specification module 48 for Protocols Tools.
+- **[Protocols Tools Spec 49](protocols-tools/protocols-tools-spec-49/SKILL.md)**: Auto-generated specification module 49 for Protocols Tools.
+- **[Protocols Tools Spec 50](protocols-tools/protocols-tools-spec-50/SKILL.md)**: Auto-generated specification module 50 for Protocols Tools.
+- **[Protocols Tools Spec 51](protocols-tools/protocols-tools-spec-51/SKILL.md)**: Auto-generated specification module 51 for Protocols Tools.
+- **[Protocols Tools Spec 52](protocols-tools/protocols-tools-spec-52/SKILL.md)**: Auto-generated specification module 52 for Protocols Tools.
+- **[Protocols Tools Spec 53](protocols-tools/protocols-tools-spec-53/SKILL.md)**: Auto-generated specification module 53 for Protocols Tools.
+- **[Protocols Tools Spec 54](protocols-tools/protocols-tools-spec-54/SKILL.md)**: Auto-generated specification module 54 for Protocols Tools.
+- **[Protocols Tools Spec 55](protocols-tools/protocols-tools-spec-55/SKILL.md)**: Auto-generated specification module 55 for Protocols Tools.
+
+## Training Tuning
+
+- **[Lora Tuning](training-tuning/lora-tuning/SKILL.md)**: Training lightweight Low-Rank Adaptation parameters.
+- **[Qlora Tuning](training-tuning/qlora-tuning/SKILL.md)**: Training INT4 quantized models with QLoRA adapters.
+- **[Synthetic Data](training-tuning/synthetic-data/SKILL.md)**: Generating clean synthetic datasets for specific tasks.
+- **[Dpo Alignment](training-tuning/dpo-alignment/SKILL.md)**: Aligning model selections using Direct Preference Optimization.
+- **[Grpo Alignment](training-tuning/grpo-alignment/SKILL.md)**: Optimizing model reasoning using Group Relative Policy Optimization.
+- **[Reward Modeling](training-tuning/reward-modeling/SKILL.md)**: Designing reward models for reinforcement learning loops.
+- **[Dataset Tokenization](training-tuning/dataset-tokenization/SKILL.md)**: Tokenizing and padding datasets for training runs.
+- **[Distributed Fsdp](training-tuning/distributed-fsdp/SKILL.md)**: Scaling training runs using PyTorch FSDP.
+- **[Megatron Distributed](training-tuning/megatron-distributed/SKILL.md)**: Executing model parallel training using Megatron-LM.
+- **[Peft Adapters](training-tuning/peft-adapters/SKILL.md)**: Saving and merging PEFT adapters back to base models.
+- **[Rlhf Training](training-tuning/rlhf-training/SKILL.md)**: Executing reinforcement learning from human feedback loops.
+- **[Gradient Checkpointing](training-tuning/gradient-checkpointing/SKILL.md)**: Trading compute for memory during training runs.
+- **[Loss Optimization](training-tuning/loss-optimization/SKILL.md)**: Monitoring cross-entropy loss graphs to detect overfitting.
+- **[Deepspeed Zero3](training-tuning/deepspeed-zero3/SKILL.md)**: Partitioning weights, gradients, and optimizer states.
+- **[Weight Pruning](training-tuning/weight-pruning/SKILL.md)**: Pruning model weights to fit small GPU footprints.
+- **[Training Tuning Spec 16](training-tuning/training-tuning-spec-16/SKILL.md)**: Auto-generated specification module 16 for Training Tuning.
+- **[Training Tuning Spec 17](training-tuning/training-tuning-spec-17/SKILL.md)**: Auto-generated specification module 17 for Training Tuning.
+- **[Training Tuning Spec 18](training-tuning/training-tuning-spec-18/SKILL.md)**: Auto-generated specification module 18 for Training Tuning.
+- **[Training Tuning Spec 19](training-tuning/training-tuning-spec-19/SKILL.md)**: Auto-generated specification module 19 for Training Tuning.
+- **[Training Tuning Spec 20](training-tuning/training-tuning-spec-20/SKILL.md)**: Auto-generated specification module 20 for Training Tuning.
+- **[Training Tuning Spec 21](training-tuning/training-tuning-spec-21/SKILL.md)**: Auto-generated specification module 21 for Training Tuning.
+- **[Training Tuning Spec 22](training-tuning/training-tuning-spec-22/SKILL.md)**: Auto-generated specification module 22 for Training Tuning.
+- **[Training Tuning Spec 23](training-tuning/training-tuning-spec-23/SKILL.md)**: Auto-generated specification module 23 for Training Tuning.
+- **[Training Tuning Spec 24](training-tuning/training-tuning-spec-24/SKILL.md)**: Auto-generated specification module 24 for Training Tuning.
+- **[Training Tuning Spec 25](training-tuning/training-tuning-spec-25/SKILL.md)**: Auto-generated specification module 25 for Training Tuning.
+- **[Training Tuning Spec 26](training-tuning/training-tuning-spec-26/SKILL.md)**: Auto-generated specification module 26 for Training Tuning.
+- **[Training Tuning Spec 27](training-tuning/training-tuning-spec-27/SKILL.md)**: Auto-generated specification module 27 for Training Tuning.
+- **[Training Tuning Spec 28](training-tuning/training-tuning-spec-28/SKILL.md)**: Auto-generated specification module 28 for Training Tuning.
+- **[Training Tuning Spec 29](training-tuning/training-tuning-spec-29/SKILL.md)**: Auto-generated specification module 29 for Training Tuning.
+- **[Training Tuning Spec 30](training-tuning/training-tuning-spec-30/SKILL.md)**: Auto-generated specification module 30 for Training Tuning.
+- **[Training Tuning Spec 31](training-tuning/training-tuning-spec-31/SKILL.md)**: Auto-generated specification module 31 for Training Tuning.
+- **[Training Tuning Spec 32](training-tuning/training-tuning-spec-32/SKILL.md)**: Auto-generated specification module 32 for Training Tuning.
+- **[Training Tuning Spec 33](training-tuning/training-tuning-spec-33/SKILL.md)**: Auto-generated specification module 33 for Training Tuning.
+- **[Training Tuning Spec 34](training-tuning/training-tuning-spec-34/SKILL.md)**: Auto-generated specification module 34 for Training Tuning.
+- **[Training Tuning Spec 35](training-tuning/training-tuning-spec-35/SKILL.md)**: Auto-generated specification module 35 for Training Tuning.
+- **[Training Tuning Spec 36](training-tuning/training-tuning-spec-36/SKILL.md)**: Auto-generated specification module 36 for Training Tuning.
+- **[Training Tuning Spec 37](training-tuning/training-tuning-spec-37/SKILL.md)**: Auto-generated specification module 37 for Training Tuning.
+- **[Training Tuning Spec 38](training-tuning/training-tuning-spec-38/SKILL.md)**: Auto-generated specification module 38 for Training Tuning.
+- **[Training Tuning Spec 39](training-tuning/training-tuning-spec-39/SKILL.md)**: Auto-generated specification module 39 for Training Tuning.
+- **[Training Tuning Spec 40](training-tuning/training-tuning-spec-40/SKILL.md)**: Auto-generated specification module 40 for Training Tuning.
+- **[Training Tuning Spec 41](training-tuning/training-tuning-spec-41/SKILL.md)**: Auto-generated specification module 41 for Training Tuning.
+- **[Training Tuning Spec 42](training-tuning/training-tuning-spec-42/SKILL.md)**: Auto-generated specification module 42 for Training Tuning.
+- **[Training Tuning Spec 43](training-tuning/training-tuning-spec-43/SKILL.md)**: Auto-generated specification module 43 for Training Tuning.
+- **[Training Tuning Spec 44](training-tuning/training-tuning-spec-44/SKILL.md)**: Auto-generated specification module 44 for Training Tuning.
+- **[Training Tuning Spec 45](training-tuning/training-tuning-spec-45/SKILL.md)**: Auto-generated specification module 45 for Training Tuning.
+- **[Training Tuning Spec 46](training-tuning/training-tuning-spec-46/SKILL.md)**: Auto-generated specification module 46 for Training Tuning.
+- **[Training Tuning Spec 47](training-tuning/training-tuning-spec-47/SKILL.md)**: Auto-generated specification module 47 for Training Tuning.
+- **[Training Tuning Spec 48](training-tuning/training-tuning-spec-48/SKILL.md)**: Auto-generated specification module 48 for Training Tuning.
+- **[Training Tuning Spec 49](training-tuning/training-tuning-spec-49/SKILL.md)**: Auto-generated specification module 49 for Training Tuning.
+- **[Training Tuning Spec 50](training-tuning/training-tuning-spec-50/SKILL.md)**: Auto-generated specification module 50 for Training Tuning.
+- **[Training Tuning Spec 51](training-tuning/training-tuning-spec-51/SKILL.md)**: Auto-generated specification module 51 for Training Tuning.
+- **[Training Tuning Spec 52](training-tuning/training-tuning-spec-52/SKILL.md)**: Auto-generated specification module 52 for Training Tuning.
+- **[Training Tuning Spec 53](training-tuning/training-tuning-spec-53/SKILL.md)**: Auto-generated specification module 53 for Training Tuning.
+- **[Training Tuning Spec 54](training-tuning/training-tuning-spec-54/SKILL.md)**: Auto-generated specification module 54 for Training Tuning.
+- **[Training Tuning Spec 55](training-tuning/training-tuning-spec-55/SKILL.md)**: Auto-generated specification module 55 for Training Tuning.
+
+## Observability Ops
+
+- **[Opentelemetry](observability-ops/opentelemetry/SKILL.md)**: Emitting spans, traces, and metrics from agent loops.
+- **[Prometheus Metrics](observability-ops/prometheus-metrics/SKILL.md)**: Tracking GPU temps, serve queries, and latency queues.
+- **[Grafana Dashboard](observability-ops/grafana-dashboard/SKILL.md)**: Visualizing serve latencies and GPU queues on Grafana.
+- **[Wandb Tracking](observability-ops/wandb-tracking/SKILL.md)**: Tracking fine-tuning runs and loss parameters on W&amp;B.
+- **[Mlflow Registry](observability-ops/mlflow-registry/SKILL.md)**: Managing model iterations and parameters in MLflow registry.
+- **[Eval Benchmarking](observability-ops/eval-benchmarking/SKILL.md)**: Evaluating model outputs against gold standard metrics.
+- **[Hallucination Detect](observability-ops/hallucination-detect/SKILL.md)**: Running fact consensus checks to detect hallucinations.
+- **[Guardrails Check](observability-ops/guardrails-check/SKILL.md)**: Installing LlamaGuard to filter input prompts and outputs.
+- **[Cost Monitoring](observability-ops/cost-monitoring/SKILL.md)**: Tracking token usage fees across active deployments.
+- **[Trace Visualization](observability-ops/trace-visualization/SKILL.md)**: Mapping tool-call spans to diagnose agent bottlenecks.
+- **[Regression Testing](observability-ops/regression-testing/SKILL.md)**: Running test suites to verify updates do not break features.
+- **[Rate Limit Handling](observability-ops/rate-limit-handling/SKILL.md)**: Managing HTTP 429 errors using exponential backoffs.
+- **[Alert Configuration](observability-ops/alert-configuration/SKILL.md)**: Triggering alerts on Slack or PagerDuty during serve drops.
+- **[Log Compaction](observability-ops/log-compaction/SKILL.md)**: Compacting verbose server logs to reduce storage space.
+- **[Dataset Versioning](observability-ops/dataset-versioning/SKILL.md)**: Tracking data updates using DVC or Git LFS.
+- **[Observability Ops Spec 16](observability-ops/observability-ops-spec-16/SKILL.md)**: Auto-generated specification module 16 for Observability Ops.
+- **[Observability Ops Spec 17](observability-ops/observability-ops-spec-17/SKILL.md)**: Auto-generated specification module 17 for Observability Ops.
+- **[Observability Ops Spec 18](observability-ops/observability-ops-spec-18/SKILL.md)**: Auto-generated specification module 18 for Observability Ops.
+- **[Observability Ops Spec 19](observability-ops/observability-ops-spec-19/SKILL.md)**: Auto-generated specification module 19 for Observability Ops.
+- **[Observability Ops Spec 20](observability-ops/observability-ops-spec-20/SKILL.md)**: Auto-generated specification module 20 for Observability Ops.
+- **[Observability Ops Spec 21](observability-ops/observability-ops-spec-21/SKILL.md)**: Auto-generated specification module 21 for Observability Ops.
+- **[Observability Ops Spec 22](observability-ops/observability-ops-spec-22/SKILL.md)**: Auto-generated specification module 22 for Observability Ops.
+- **[Observability Ops Spec 23](observability-ops/observability-ops-spec-23/SKILL.md)**: Auto-generated specification module 23 for Observability Ops.
+- **[Observability Ops Spec 24](observability-ops/observability-ops-spec-24/SKILL.md)**: Auto-generated specification module 24 for Observability Ops.
+- **[Observability Ops Spec 25](observability-ops/observability-ops-spec-25/SKILL.md)**: Auto-generated specification module 25 for Observability Ops.
+- **[Observability Ops Spec 26](observability-ops/observability-ops-spec-26/SKILL.md)**: Auto-generated specification module 26 for Observability Ops.
+- **[Observability Ops Spec 27](observability-ops/observability-ops-spec-27/SKILL.md)**: Auto-generated specification module 27 for Observability Ops.
+- **[Observability Ops Spec 28](observability-ops/observability-ops-spec-28/SKILL.md)**: Auto-generated specification module 28 for Observability Ops.
+- **[Observability Ops Spec 29](observability-ops/observability-ops-spec-29/SKILL.md)**: Auto-generated specification module 29 for Observability Ops.
+- **[Observability Ops Spec 30](observability-ops/observability-ops-spec-30/SKILL.md)**: Auto-generated specification module 30 for Observability Ops.
+- **[Observability Ops Spec 31](observability-ops/observability-ops-spec-31/SKILL.md)**: Auto-generated specification module 31 for Observability Ops.
+- **[Observability Ops Spec 32](observability-ops/observability-ops-spec-32/SKILL.md)**: Auto-generated specification module 32 for Observability Ops.
+- **[Observability Ops Spec 33](observability-ops/observability-ops-spec-33/SKILL.md)**: Auto-generated specification module 33 for Observability Ops.
+- **[Observability Ops Spec 34](observability-ops/observability-ops-spec-34/SKILL.md)**: Auto-generated specification module 34 for Observability Ops.
+- **[Observability Ops Spec 35](observability-ops/observability-ops-spec-35/SKILL.md)**: Auto-generated specification module 35 for Observability Ops.
+- **[Observability Ops Spec 36](observability-ops/observability-ops-spec-36/SKILL.md)**: Auto-generated specification module 36 for Observability Ops.
+- **[Observability Ops Spec 37](observability-ops/observability-ops-spec-37/SKILL.md)**: Auto-generated specification module 37 for Observability Ops.
+- **[Observability Ops Spec 38](observability-ops/observability-ops-spec-38/SKILL.md)**: Auto-generated specification module 38 for Observability Ops.
+- **[Observability Ops Spec 39](observability-ops/observability-ops-spec-39/SKILL.md)**: Auto-generated specification module 39 for Observability Ops.
+- **[Observability Ops Spec 40](observability-ops/observability-ops-spec-40/SKILL.md)**: Auto-generated specification module 40 for Observability Ops.
+- **[Observability Ops Spec 41](observability-ops/observability-ops-spec-41/SKILL.md)**: Auto-generated specification module 41 for Observability Ops.
+- **[Observability Ops Spec 42](observability-ops/observability-ops-spec-42/SKILL.md)**: Auto-generated specification module 42 for Observability Ops.
+- **[Observability Ops Spec 43](observability-ops/observability-ops-spec-43/SKILL.md)**: Auto-generated specification module 43 for Observability Ops.
+- **[Observability Ops Spec 44](observability-ops/observability-ops-spec-44/SKILL.md)**: Auto-generated specification module 44 for Observability Ops.
+- **[Observability Ops Spec 45](observability-ops/observability-ops-spec-45/SKILL.md)**: Auto-generated specification module 45 for Observability Ops.
+- **[Observability Ops Spec 46](observability-ops/observability-ops-spec-46/SKILL.md)**: Auto-generated specification module 46 for Observability Ops.
+- **[Observability Ops Spec 47](observability-ops/observability-ops-spec-47/SKILL.md)**: Auto-generated specification module 47 for Observability Ops.
+- **[Observability Ops Spec 48](observability-ops/observability-ops-spec-48/SKILL.md)**: Auto-generated specification module 48 for Observability Ops.
+- **[Observability Ops Spec 49](observability-ops/observability-ops-spec-49/SKILL.md)**: Auto-generated specification module 49 for Observability Ops.
+- **[Observability Ops Spec 50](observability-ops/observability-ops-spec-50/SKILL.md)**: Auto-generated specification module 50 for Observability Ops.
+- **[Observability Ops Spec 51](observability-ops/observability-ops-spec-51/SKILL.md)**: Auto-generated specification module 51 for Observability Ops.
+- **[Observability Ops Spec 52](observability-ops/observability-ops-spec-52/SKILL.md)**: Auto-generated specification module 52 for Observability Ops.
+- **[Observability Ops Spec 53](observability-ops/observability-ops-spec-53/SKILL.md)**: Auto-generated specification module 53 for Observability Ops.
+- **[Observability Ops Spec 54](observability-ops/observability-ops-spec-54/SKILL.md)**: Auto-generated specification module 54 for Observability Ops.
+- **[Observability Ops Spec 55](observability-ops/observability-ops-spec-55/SKILL.md)**: Auto-generated specification module 55 for Observability Ops.
+
+## Models Custom
+
+- **[Openai Tuning](models-custom/openai-tuning/SKILL.md)**: Tuning requests for GPT-4o and Assistants APIs.
+- **[Anthropic Tuning](models-custom/anthropic-tuning/SKILL.md)**: Using XML tags and reasoning patterns with Claude.
+- **[Gemini Tuning](models-custom/gemini-tuning/SKILL.md)**: Optimizing context and vision pipelines on Gemini.
+- **[Deepseek Tuning](models-custom/deepseek-tuning/SKILL.md)**: Leveraging thinking tokens with DeepSeek R1.
+- **[Qwen Coder](models-custom/qwen-coder/SKILL.md)**: Generating clean syntax maps using Qwen2.5-Coder.
+- **[Llama Tuning](models-custom/llama-tuning/SKILL.md)**: Tuning open Llama 3 models under prompt constraints.
+- **[Mistral Codestral](models-custom/mistral-codestral/SKILL.md)**: Using FIM patterns and native JSON calls on Mistral.
+- **[Models Custom Spec 8](models-custom/models-custom-spec-8/SKILL.md)**: Auto-generated specification module 8 for Models Custom.
+- **[Models Custom Spec 9](models-custom/models-custom-spec-9/SKILL.md)**: Auto-generated specification module 9 for Models Custom.
+- **[Models Custom Spec 10](models-custom/models-custom-spec-10/SKILL.md)**: Auto-generated specification module 10 for Models Custom.
+- **[Models Custom Spec 11](models-custom/models-custom-spec-11/SKILL.md)**: Auto-generated specification module 11 for Models Custom.
+- **[Models Custom Spec 12](models-custom/models-custom-spec-12/SKILL.md)**: Auto-generated specification module 12 for Models Custom.
+- **[Models Custom Spec 13](models-custom/models-custom-spec-13/SKILL.md)**: Auto-generated specification module 13 for Models Custom.
+- **[Models Custom Spec 14](models-custom/models-custom-spec-14/SKILL.md)**: Auto-generated specification module 14 for Models Custom.
+- **[Models Custom Spec 15](models-custom/models-custom-spec-15/SKILL.md)**: Auto-generated specification module 15 for Models Custom.
+- **[Models Custom Spec 16](models-custom/models-custom-spec-16/SKILL.md)**: Auto-generated specification module 16 for Models Custom.
+- **[Models Custom Spec 17](models-custom/models-custom-spec-17/SKILL.md)**: Auto-generated specification module 17 for Models Custom.
+- **[Models Custom Spec 18](models-custom/models-custom-spec-18/SKILL.md)**: Auto-generated specification module 18 for Models Custom.
+- **[Models Custom Spec 19](models-custom/models-custom-spec-19/SKILL.md)**: Auto-generated specification module 19 for Models Custom.
+- **[Models Custom Spec 20](models-custom/models-custom-spec-20/SKILL.md)**: Auto-generated specification module 20 for Models Custom.
+- **[Models Custom Spec 21](models-custom/models-custom-spec-21/SKILL.md)**: Auto-generated specification module 21 for Models Custom.
+- **[Models Custom Spec 22](models-custom/models-custom-spec-22/SKILL.md)**: Auto-generated specification module 22 for Models Custom.
+- **[Models Custom Spec 23](models-custom/models-custom-spec-23/SKILL.md)**: Auto-generated specification module 23 for Models Custom.
+- **[Models Custom Spec 24](models-custom/models-custom-spec-24/SKILL.md)**: Auto-generated specification module 24 for Models Custom.
+- **[Models Custom Spec 25](models-custom/models-custom-spec-25/SKILL.md)**: Auto-generated specification module 25 for Models Custom.
+- **[Models Custom Spec 26](models-custom/models-custom-spec-26/SKILL.md)**: Auto-generated specification module 26 for Models Custom.
+- **[Models Custom Spec 27](models-custom/models-custom-spec-27/SKILL.md)**: Auto-generated specification module 27 for Models Custom.
+- **[Models Custom Spec 28](models-custom/models-custom-spec-28/SKILL.md)**: Auto-generated specification module 28 for Models Custom.
+- **[Models Custom Spec 29](models-custom/models-custom-spec-29/SKILL.md)**: Auto-generated specification module 29 for Models Custom.
+- **[Models Custom Spec 30](models-custom/models-custom-spec-30/SKILL.md)**: Auto-generated specification module 30 for Models Custom.
+- **[Models Custom Spec 31](models-custom/models-custom-spec-31/SKILL.md)**: Auto-generated specification module 31 for Models Custom.
+- **[Models Custom Spec 32](models-custom/models-custom-spec-32/SKILL.md)**: Auto-generated specification module 32 for Models Custom.
+- **[Models Custom Spec 33](models-custom/models-custom-spec-33/SKILL.md)**: Auto-generated specification module 33 for Models Custom.
+- **[Models Custom Spec 34](models-custom/models-custom-spec-34/SKILL.md)**: Auto-generated specification module 34 for Models Custom.
+- **[Models Custom Spec 35](models-custom/models-custom-spec-35/SKILL.md)**: Auto-generated specification module 35 for Models Custom.
+- **[Models Custom Spec 36](models-custom/models-custom-spec-36/SKILL.md)**: Auto-generated specification module 36 for Models Custom.
+- **[Models Custom Spec 37](models-custom/models-custom-spec-37/SKILL.md)**: Auto-generated specification module 37 for Models Custom.
+- **[Models Custom Spec 38](models-custom/models-custom-spec-38/SKILL.md)**: Auto-generated specification module 38 for Models Custom.
+- **[Models Custom Spec 39](models-custom/models-custom-spec-39/SKILL.md)**: Auto-generated specification module 39 for Models Custom.
+- **[Models Custom Spec 40](models-custom/models-custom-spec-40/SKILL.md)**: Auto-generated specification module 40 for Models Custom.
+- **[Models Custom Spec 41](models-custom/models-custom-spec-41/SKILL.md)**: Auto-generated specification module 41 for Models Custom.
+- **[Models Custom Spec 42](models-custom/models-custom-spec-42/SKILL.md)**: Auto-generated specification module 42 for Models Custom.
+- **[Models Custom Spec 43](models-custom/models-custom-spec-43/SKILL.md)**: Auto-generated specification module 43 for Models Custom.
+- **[Models Custom Spec 44](models-custom/models-custom-spec-44/SKILL.md)**: Auto-generated specification module 44 for Models Custom.
+- **[Models Custom Spec 45](models-custom/models-custom-spec-45/SKILL.md)**: Auto-generated specification module 45 for Models Custom.
+- **[Models Custom Spec 46](models-custom/models-custom-spec-46/SKILL.md)**: Auto-generated specification module 46 for Models Custom.
+- **[Models Custom Spec 47](models-custom/models-custom-spec-47/SKILL.md)**: Auto-generated specification module 47 for Models Custom.
+- **[Models Custom Spec 48](models-custom/models-custom-spec-48/SKILL.md)**: Auto-generated specification module 48 for Models Custom.
+- **[Models Custom Spec 49](models-custom/models-custom-spec-49/SKILL.md)**: Auto-generated specification module 49 for Models Custom.
+- **[Models Custom Spec 50](models-custom/models-custom-spec-50/SKILL.md)**: Auto-generated specification module 50 for Models Custom.
+- **[Models Custom Spec 51](models-custom/models-custom-spec-51/SKILL.md)**: Auto-generated specification module 51 for Models Custom.
+- **[Models Custom Spec 52](models-custom/models-custom-spec-52/SKILL.md)**: Auto-generated specification module 52 for Models Custom.
+- **[Models Custom Spec 53](models-custom/models-custom-spec-53/SKILL.md)**: Auto-generated specification module 53 for Models Custom.
+- **[Models Custom Spec 54](models-custom/models-custom-spec-54/SKILL.md)**: Auto-generated specification module 54 for Models Custom.
+- **[Models Custom Spec 55](models-custom/models-custom-spec-55/SKILL.md)**: Auto-generated specification module 55 for Models Custom.
+
+## Multimodal Vision
+
+- **[Vision Ocr](multimodal-vision/vision-ocr/SKILL.md)**: Extracting structured text coordinate boundaries from screenshots.
+- **[Speech Streaming](multimodal-vision/speech-streaming/SKILL.md)**: Streaming raw PCM audio chunks over Websockets to STT servers.
+- **[Tts Buffering](multimodal-vision/tts-buffering/SKILL.md)**: Buffering TTS sentence audio chunks to minimize playback latency.
+- **[Video Understanding](multimodal-vision/video-understanding/SKILL.md)**: Sampling frame sequences to describe video actions.
+- **[Image Editing](multimodal-vision/image-editing/SKILL.md)**: Passing mask boundaries to modify image pixels via diffusion.
+- **[Gui Control](multimodal-vision/gui-control/SKILL.md)**: Mapping click targets to desktop GUI elements.
+- **[Audio Vad](multimodal-vision/audio-vad/SKILL.md)**: Implementing Voice Activity Detection to detect user interrupts.
+- **[Multi Modal Prompt](multimodal-vision/multi-modal-prompt/SKILL.md)**: Interleaving images and text coordinates in prompt templates.
+- **[Layout Analysis](multimodal-vision/layout-analysis/SKILL.md)**: Parsing bounding boxes of text, tables, and headers in PDFs.
+- **[Caption Generation](multimodal-vision/caption-generation/SKILL.md)**: Generating clean, descriptive tags for images.
+- **[Multimodal Vision Spec 11](multimodal-vision/multimodal-vision-spec-11/SKILL.md)**: Auto-generated specification module 11 for Multimodal Vision.
+- **[Multimodal Vision Spec 12](multimodal-vision/multimodal-vision-spec-12/SKILL.md)**: Auto-generated specification module 12 for Multimodal Vision.
+- **[Multimodal Vision Spec 13](multimodal-vision/multimodal-vision-spec-13/SKILL.md)**: Auto-generated specification module 13 for Multimodal Vision.
+- **[Multimodal Vision Spec 14](multimodal-vision/multimodal-vision-spec-14/SKILL.md)**: Auto-generated specification module 14 for Multimodal Vision.
+- **[Multimodal Vision Spec 15](multimodal-vision/multimodal-vision-spec-15/SKILL.md)**: Auto-generated specification module 15 for Multimodal Vision.
+- **[Multimodal Vision Spec 16](multimodal-vision/multimodal-vision-spec-16/SKILL.md)**: Auto-generated specification module 16 for Multimodal Vision.
+- **[Multimodal Vision Spec 17](multimodal-vision/multimodal-vision-spec-17/SKILL.md)**: Auto-generated specification module 17 for Multimodal Vision.
+- **[Multimodal Vision Spec 18](multimodal-vision/multimodal-vision-spec-18/SKILL.md)**: Auto-generated specification module 18 for Multimodal Vision.
+- **[Multimodal Vision Spec 19](multimodal-vision/multimodal-vision-spec-19/SKILL.md)**: Auto-generated specification module 19 for Multimodal Vision.
+- **[Multimodal Vision Spec 20](multimodal-vision/multimodal-vision-spec-20/SKILL.md)**: Auto-generated specification module 20 for Multimodal Vision.
+- **[Multimodal Vision Spec 21](multimodal-vision/multimodal-vision-spec-21/SKILL.md)**: Auto-generated specification module 21 for Multimodal Vision.
+- **[Multimodal Vision Spec 22](multimodal-vision/multimodal-vision-spec-22/SKILL.md)**: Auto-generated specification module 22 for Multimodal Vision.
+- **[Multimodal Vision Spec 23](multimodal-vision/multimodal-vision-spec-23/SKILL.md)**: Auto-generated specification module 23 for Multimodal Vision.
+- **[Multimodal Vision Spec 24](multimodal-vision/multimodal-vision-spec-24/SKILL.md)**: Auto-generated specification module 24 for Multimodal Vision.
+- **[Multimodal Vision Spec 25](multimodal-vision/multimodal-vision-spec-25/SKILL.md)**: Auto-generated specification module 25 for Multimodal Vision.
+- **[Multimodal Vision Spec 26](multimodal-vision/multimodal-vision-spec-26/SKILL.md)**: Auto-generated specification module 26 for Multimodal Vision.
+- **[Multimodal Vision Spec 27](multimodal-vision/multimodal-vision-spec-27/SKILL.md)**: Auto-generated specification module 27 for Multimodal Vision.
+- **[Multimodal Vision Spec 28](multimodal-vision/multimodal-vision-spec-28/SKILL.md)**: Auto-generated specification module 28 for Multimodal Vision.
+- **[Multimodal Vision Spec 29](multimodal-vision/multimodal-vision-spec-29/SKILL.md)**: Auto-generated specification module 29 for Multimodal Vision.
+- **[Multimodal Vision Spec 30](multimodal-vision/multimodal-vision-spec-30/SKILL.md)**: Auto-generated specification module 30 for Multimodal Vision.
+- **[Multimodal Vision Spec 31](multimodal-vision/multimodal-vision-spec-31/SKILL.md)**: Auto-generated specification module 31 for Multimodal Vision.
+- **[Multimodal Vision Spec 32](multimodal-vision/multimodal-vision-spec-32/SKILL.md)**: Auto-generated specification module 32 for Multimodal Vision.
+- **[Multimodal Vision Spec 33](multimodal-vision/multimodal-vision-spec-33/SKILL.md)**: Auto-generated specification module 33 for Multimodal Vision.
+- **[Multimodal Vision Spec 34](multimodal-vision/multimodal-vision-spec-34/SKILL.md)**: Auto-generated specification module 34 for Multimodal Vision.
+- **[Multimodal Vision Spec 35](multimodal-vision/multimodal-vision-spec-35/SKILL.md)**: Auto-generated specification module 35 for Multimodal Vision.
+- **[Multimodal Vision Spec 36](multimodal-vision/multimodal-vision-spec-36/SKILL.md)**: Auto-generated specification module 36 for Multimodal Vision.
+- **[Multimodal Vision Spec 37](multimodal-vision/multimodal-vision-spec-37/SKILL.md)**: Auto-generated specification module 37 for Multimodal Vision.
+- **[Multimodal Vision Spec 38](multimodal-vision/multimodal-vision-spec-38/SKILL.md)**: Auto-generated specification module 38 for Multimodal Vision.
+- **[Multimodal Vision Spec 39](multimodal-vision/multimodal-vision-spec-39/SKILL.md)**: Auto-generated specification module 39 for Multimodal Vision.
+- **[Multimodal Vision Spec 40](multimodal-vision/multimodal-vision-spec-40/SKILL.md)**: Auto-generated specification module 40 for Multimodal Vision.
+- **[Multimodal Vision Spec 41](multimodal-vision/multimodal-vision-spec-41/SKILL.md)**: Auto-generated specification module 41 for Multimodal Vision.
+- **[Multimodal Vision Spec 42](multimodal-vision/multimodal-vision-spec-42/SKILL.md)**: Auto-generated specification module 42 for Multimodal Vision.
+- **[Multimodal Vision Spec 43](multimodal-vision/multimodal-vision-spec-43/SKILL.md)**: Auto-generated specification module 43 for Multimodal Vision.
+- **[Multimodal Vision Spec 44](multimodal-vision/multimodal-vision-spec-44/SKILL.md)**: Auto-generated specification module 44 for Multimodal Vision.
+- **[Multimodal Vision Spec 45](multimodal-vision/multimodal-vision-spec-45/SKILL.md)**: Auto-generated specification module 45 for Multimodal Vision.
+- **[Multimodal Vision Spec 46](multimodal-vision/multimodal-vision-spec-46/SKILL.md)**: Auto-generated specification module 46 for Multimodal Vision.
+- **[Multimodal Vision Spec 47](multimodal-vision/multimodal-vision-spec-47/SKILL.md)**: Auto-generated specification module 47 for Multimodal Vision.
+- **[Multimodal Vision Spec 48](multimodal-vision/multimodal-vision-spec-48/SKILL.md)**: Auto-generated specification module 48 for Multimodal Vision.
+- **[Multimodal Vision Spec 49](multimodal-vision/multimodal-vision-spec-49/SKILL.md)**: Auto-generated specification module 49 for Multimodal Vision.
+- **[Multimodal Vision Spec 50](multimodal-vision/multimodal-vision-spec-50/SKILL.md)**: Auto-generated specification module 50 for Multimodal Vision.
+- **[Multimodal Vision Spec 51](multimodal-vision/multimodal-vision-spec-51/SKILL.md)**: Auto-generated specification module 51 for Multimodal Vision.
+- **[Multimodal Vision Spec 52](multimodal-vision/multimodal-vision-spec-52/SKILL.md)**: Auto-generated specification module 52 for Multimodal Vision.
+- **[Multimodal Vision Spec 53](multimodal-vision/multimodal-vision-spec-53/SKILL.md)**: Auto-generated specification module 53 for Multimodal Vision.
+- **[Multimodal Vision Spec 54](multimodal-vision/multimodal-vision-spec-54/SKILL.md)**: Auto-generated specification module 54 for Multimodal Vision.
+- **[Multimodal Vision Spec 55](multimodal-vision/multimodal-vision-spec-55/SKILL.md)**: Auto-generated specification module 55 for Multimodal Vision.
+
+## Business Product
+
+- **[Prd Spec](business-product/prd-spec/SKILL.md)**: Drafting clear Product Requirement Documents for AI agents.
+- **[Mvp Launch](business-product/mvp-launch/SKILL.md)**: Building simple working prototypes to test features quickly.
+- **[Seo Layout](business-product/seo-layout/SKILL.md)**: Structuring semantic markdown metadata to boost search ranks.
+- **[Design Tokens](business-product/design-tokens/SKILL.md)**: Standardizing colors, typography, and spacing scales.
+- **[Multi Agent Ops](business-product/multi-agent-ops/SKILL.md)**: Coordinating specialized agent assignments in teams.
+- **[Roi Tracking](business-product/roi-tracking/SKILL.md)**: Tracking model API costs against business conversions.
+- **[Data Governance](business-product/data-governance/SKILL.md)**: Adhering to GDPR/CCPA regulations for user inputs.
+- **[Business Product Spec 8](business-product/business-product-spec-8/SKILL.md)**: Auto-generated specification module 8 for Business Product.
+- **[Business Product Spec 9](business-product/business-product-spec-9/SKILL.md)**: Auto-generated specification module 9 for Business Product.
+- **[Business Product Spec 10](business-product/business-product-spec-10/SKILL.md)**: Auto-generated specification module 10 for Business Product.
+- **[Business Product Spec 11](business-product/business-product-spec-11/SKILL.md)**: Auto-generated specification module 11 for Business Product.
+- **[Business Product Spec 12](business-product/business-product-spec-12/SKILL.md)**: Auto-generated specification module 12 for Business Product.
+- **[Business Product Spec 13](business-product/business-product-spec-13/SKILL.md)**: Auto-generated specification module 13 for Business Product.
+- **[Business Product Spec 14](business-product/business-product-spec-14/SKILL.md)**: Auto-generated specification module 14 for Business Product.
+- **[Business Product Spec 15](business-product/business-product-spec-15/SKILL.md)**: Auto-generated specification module 15 for Business Product.
+- **[Business Product Spec 16](business-product/business-product-spec-16/SKILL.md)**: Auto-generated specification module 16 for Business Product.
+- **[Business Product Spec 17](business-product/business-product-spec-17/SKILL.md)**: Auto-generated specification module 17 for Business Product.
+- **[Business Product Spec 18](business-product/business-product-spec-18/SKILL.md)**: Auto-generated specification module 18 for Business Product.
+- **[Business Product Spec 19](business-product/business-product-spec-19/SKILL.md)**: Auto-generated specification module 19 for Business Product.
+- **[Business Product Spec 20](business-product/business-product-spec-20/SKILL.md)**: Auto-generated specification module 20 for Business Product.
+- **[Business Product Spec 21](business-product/business-product-spec-21/SKILL.md)**: Auto-generated specification module 21 for Business Product.
+- **[Business Product Spec 22](business-product/business-product-spec-22/SKILL.md)**: Auto-generated specification module 22 for Business Product.
+- **[Business Product Spec 23](business-product/business-product-spec-23/SKILL.md)**: Auto-generated specification module 23 for Business Product.
+- **[Business Product Spec 24](business-product/business-product-spec-24/SKILL.md)**: Auto-generated specification module 24 for Business Product.
+- **[Business Product Spec 25](business-product/business-product-spec-25/SKILL.md)**: Auto-generated specification module 25 for Business Product.
+- **[Business Product Spec 26](business-product/business-product-spec-26/SKILL.md)**: Auto-generated specification module 26 for Business Product.
+- **[Business Product Spec 27](business-product/business-product-spec-27/SKILL.md)**: Auto-generated specification module 27 for Business Product.
+- **[Business Product Spec 28](business-product/business-product-spec-28/SKILL.md)**: Auto-generated specification module 28 for Business Product.
+- **[Business Product Spec 29](business-product/business-product-spec-29/SKILL.md)**: Auto-generated specification module 29 for Business Product.
+- **[Business Product Spec 30](business-product/business-product-spec-30/SKILL.md)**: Auto-generated specification module 30 for Business Product.
+- **[Business Product Spec 31](business-product/business-product-spec-31/SKILL.md)**: Auto-generated specification module 31 for Business Product.
+- **[Business Product Spec 32](business-product/business-product-spec-32/SKILL.md)**: Auto-generated specification module 32 for Business Product.
+- **[Business Product Spec 33](business-product/business-product-spec-33/SKILL.md)**: Auto-generated specification module 33 for Business Product.
+- **[Business Product Spec 34](business-product/business-product-spec-34/SKILL.md)**: Auto-generated specification module 34 for Business Product.
+- **[Business Product Spec 35](business-product/business-product-spec-35/SKILL.md)**: Auto-generated specification module 35 for Business Product.
+- **[Business Product Spec 36](business-product/business-product-spec-36/SKILL.md)**: Auto-generated specification module 36 for Business Product.
+- **[Business Product Spec 37](business-product/business-product-spec-37/SKILL.md)**: Auto-generated specification module 37 for Business Product.
+- **[Business Product Spec 38](business-product/business-product-spec-38/SKILL.md)**: Auto-generated specification module 38 for Business Product.
+- **[Business Product Spec 39](business-product/business-product-spec-39/SKILL.md)**: Auto-generated specification module 39 for Business Product.
+- **[Business Product Spec 40](business-product/business-product-spec-40/SKILL.md)**: Auto-generated specification module 40 for Business Product.
+- **[Business Product Spec 41](business-product/business-product-spec-41/SKILL.md)**: Auto-generated specification module 41 for Business Product.
+- **[Business Product Spec 42](business-product/business-product-spec-42/SKILL.md)**: Auto-generated specification module 42 for Business Product.
+- **[Business Product Spec 43](business-product/business-product-spec-43/SKILL.md)**: Auto-generated specification module 43 for Business Product.
+- **[Business Product Spec 44](business-product/business-product-spec-44/SKILL.md)**: Auto-generated specification module 44 for Business Product.
+- **[Business Product Spec 45](business-product/business-product-spec-45/SKILL.md)**: Auto-generated specification module 45 for Business Product.
+- **[Business Product Spec 46](business-product/business-product-spec-46/SKILL.md)**: Auto-generated specification module 46 for Business Product.
+- **[Business Product Spec 47](business-product/business-product-spec-47/SKILL.md)**: Auto-generated specification module 47 for Business Product.
+- **[Business Product Spec 48](business-product/business-product-spec-48/SKILL.md)**: Auto-generated specification module 48 for Business Product.
+- **[Business Product Spec 49](business-product/business-product-spec-49/SKILL.md)**: Auto-generated specification module 49 for Business Product.
+- **[Business Product Spec 50](business-product/business-product-spec-50/SKILL.md)**: Auto-generated specification module 50 for Business Product.
+- **[Business Product Spec 51](business-product/business-product-spec-51/SKILL.md)**: Auto-generated specification module 51 for Business Product.
+- **[Business Product Spec 52](business-product/business-product-spec-52/SKILL.md)**: Auto-generated specification module 52 for Business Product.
+- **[Business Product Spec 53](business-product/business-product-spec-53/SKILL.md)**: Auto-generated specification module 53 for Business Product.
+- **[Business Product Spec 54](business-product/business-product-spec-54/SKILL.md)**: Auto-generated specification module 54 for Business Product.
+- **[Business Product Spec 55](business-product/business-product-spec-55/SKILL.md)**: Auto-generated specification module 55 for Business Product.

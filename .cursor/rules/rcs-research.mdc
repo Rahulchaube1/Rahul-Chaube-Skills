@@ -1,0 +1,22 @@
+---
+description: Guidelines for researching the codebase, reading documentation, and analyzing systems. Use when investigating files.
+alwaysApply: true
+---
+
+# RCS Research Standards
+
+Use these guidelines when exploring a codebase, investigating bugs, or parsing documentation.
+
+---
+
+## 🔍 Investigation Workflow
+1. **List First**: List directory contents before viewing file details to understand layout.
+2. **Grep Carefully**: Use `grep_search` to find symbols, class declarations, and import roots.
+3. **Trace Symbol References**: Map where classes, methods, or database schemas are used across the project to predict collateral damage before coding.
+4. **Read configurations**: Check `package.json`, `.env`, `requirements.txt`, or config folders for dependencies and setups.
+
+---
+
+## 💾 Token Conservation
+* Do not view complete files if you only need small blocks of code. Specify line numbers (`StartLine`/`EndLine`) in `view_file` calls.
+* Avoid running search queries repeatedly. Use mental caching.

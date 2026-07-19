@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
+  <rect width="600" height="300" fill="#0f172a" rx="15" />
+  <text x="300" y="45" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">REASONING &amp; REFLECTION LOOP</text>
+  
+  <rect x="50" y="110" width="120" height="60" rx="6" fill="#1e293b" stroke="#e11d48" stroke-width="2" />
+  <text x="110" y="145" font-family="'Inter', sans-serif" font-size="13" font-weight="bold" fill="#e11d48" text-anchor="middle">Detect Failure</text>
+  
+  <path d="M170 140 L220 140" stroke="#64748b" stroke-width="3" fill="none" />
+
+  <rect x="220" y="90" width="160" height="100" rx="8" fill="#1e293b" stroke="#fbbf24" stroke-width="2" />
+  <text x="300" y="130" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="middle">Refinement Step</text>
+  <text x="300" y="155" font-family="'Inter', sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">Isolate assumptions</text>
+
+  <path d="M380 140 L430 140" stroke="#64748b" stroke-width="3" fill="none" />
+
+  <rect x="430" y="110" width="120" height="60" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+  <text x="490" y="145" font-family="'Inter', sans-serif" font-size="13" font-weight="bold" fill="#10b981" text-anchor="middle">Verify AST &amp; logic</text>
+</svg>

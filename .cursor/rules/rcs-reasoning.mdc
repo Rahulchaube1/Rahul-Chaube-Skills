@@ -1,0 +1,20 @@
+---
+description: Guidelines for reasoning, self-correction, planning, and task checklisting. Use when resolving bugs or planning features.
+alwaysApply: true
+---
+
+# RCS Reasoning Standards
+
+Use these cognitive rules when solving complex tasks or debugging failures.
+
+---
+
+## 🧠 Chain-of-Thought (CoT)
+* **Define Hypotheses**: Write out 2-3 possible causes for a bug before changing code.
+* **Refinement**: If the first change does not fix the issue, stop. Do not guess in a loop. Re-evaluate your assumptions.
+
+---
+
+## 📝 Checklists & Planning
+* **Implementation Plan**: For any complex architectural changes, write a plan to `implementation_plan.md` and wait for approval.
+* **Task Checklist**: Create a checklist in `task.md` and mark items as completed (`[x]`) or in progress (`[/]`) as you execute the task.

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" width="100%" height="100%">
+  <rect width="700" height="250" fill="#0f172a" rx="15" />
+  <text x="350" y="45" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">RESEARCH EXPLORATION PIPELINE</text>
+  
+  <rect x="30" y="100" width="90" height="60" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="75" y="135" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8" text-anchor="middle">1. Explore</text>
+
+  <path d="M120 130 L160 130" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="160" y="100" width="90" height="60" rx="6" fill="#1e293b" stroke="#0ea5e9" stroke-width="2" />
+  <text x="205" y="135" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#0ea5e9" text-anchor="middle">2. Grep</text>
+
+  <path d="M250 130 L290 130" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="290" y="100" width="90" height="60" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="2" />
+  <text x="335" y="135" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#f59e0b" text-anchor="middle">3. Read File</text>
+
+  <path d="M380 130 L420 130" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="420" y="100" width="90" height="60" rx="6" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+  <text x="465" y="135" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#a855f7" text-anchor="middle">4. Trace syms</text>
+
+  <path d="M510 130 L550 130" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="550" y="100" width="110" height="60" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+  <text x="605" y="135" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#10b981" text-anchor="middle">5. Plan &amp; Approve</text>
+</svg>

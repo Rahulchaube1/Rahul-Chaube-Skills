@@ -1,0 +1,23 @@
+---
+description: Specific guidelines for code modifications, language styles, and refactoring constraints. Use when editing or creating code files.
+globs: "*.*"
+---
+
+# RCS Coding Standards
+
+Apply these instructions when modifying or creating source code.
+
+---
+
+## ✂️ Surgical Execution Rules
+1. **No Drive-by Improvements**: Leave code that works completely alone. Do not fix formatting, rename local variables, or add comments to adjacent methods.
+2. **Ast Alignment**: Check brackets and indents to avoid compile failures.
+3. **No Unused Code**: Delete any imports, variables, or functions that your changes make unused.
+
+---
+
+## 💻 Language Conventions
+* **Python**: Maintain clean, PEP8-aligned style. Use type hints if they exist in the file.
+* **TypeScript / JavaScript**: Match standard lint settings. Use relative imports for local modules.
+* **Go / Rust**: Follow idiomatic patterns (`go fmt` / `cargo fmt`).
+* **HTML/CSS**: Keep it clean and semantic. Ensure classes and variables match design tokens.
