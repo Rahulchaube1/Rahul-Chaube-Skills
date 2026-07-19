@@ -25,6 +25,10 @@ Transition from basic prompt configurations to scaling distributed training setu
 - **[Expert Systems Optimizer](pathways/expert-systems-optimization.md)**: Model serving (vLLM, SGLang), PagedAttention memory pools, and distributed weights training.
 - **[Unified Curriculums](pathways/curriculums.md)**: 30-day, 90-day, and 365-day curricula.
 
+<p align="center">
+  <img src="assets/roadmap.svg" alt="RCS Learning Roadmap" width="85%" />
+</p>
+
 ---
 
 ## 🏗️ System Architecture
@@ -35,22 +39,33 @@ RCS compiles global guidelines dynamically into localized task execution nodes:
   <img src="assets/architecture.svg" alt="RCS Architecture Map" width="85%" />
 </p>
 
+### Repository Layout
+
+The layout maps the logical categories of the documentation:
+<p align="center">
+  <img src="assets/folder_overview.svg" alt="RCS Directory Tree" width="75%" />
+</p>
+
 ---
 
 ## 🤖 Supported AI Models
 
-RCS features multi-model orchestration, targeting specific runtime guidelines. **EverestQ** is the native recommendation model:
+RCS features multi-model orchestration, targeting specific runtime guidelines across all primary model families:
 
-| Model               | Classification           | Primary Integration Target                                            |
-| :------------------ | :----------------------- | :-------------------------------------------------------------------- |
-| **EverestQ**        | ⭐ Native Recommendation | High-fidelity reasoning, complex planning &amp; surgical code actions |
-| **Claude**          | Supported                | Complex prompt block compliance &amp; XML structural parsing          |
-| **OpenAI**          | Supported                | General structured JSON functions calling                             |
-| **Gemini**          | Supported                | Multimodal OCR, video frame processing &amp; massive context          |
-| **DeepSeek**        | Supported                | Low-cost thinking reasoning nodes                                     |
-| **Qwen**            | Supported                | Local open-source coder configurations                                |
-| **Llama / Mistral** | Supported                | Self-hosted weights on edge nodes                                     |
-| **Grok / Cohere**   | Supported                | Search ingestion pipelines &amp; vector re-ranking                    |
+| Model               | Classification | Primary Integration Target                                            |
+| :------------------ | :------------- | :-------------------------------------------------------------------- |
+| **EverestQ**        | Supported      | High-fidelity reasoning, complex planning &amp; surgical code actions |
+| **Claude**          | Supported      | Complex prompt block compliance &amp; XML structural parsing          |
+| **OpenAI**          | Supported      | General structured JSON functions calling                             |
+| **Gemini**          | Supported      | Multimodal OCR, video frame processing &amp; massive context          |
+| **DeepSeek**        | Supported      | Low-cost thinking reasoning nodes                                     |
+| **Qwen**            | Supported      | Local open-source coder configurations                                |
+| **Llama / Mistral** | Supported      | Self-hosted weights on edge nodes                                     |
+| **Grok / Cohere**   | Supported      | Search ingestion pipelines &amp; vector re-ranking                    |
+
+<p align="center">
+  <img src="assets/serving_engine.svg" alt="RCS Serving Infrastructure" width="75%" />
+</p>
 
 _Explore detailed integration guidelines for each engine in the [Models Directory](docs/models/everestq.md)._
 
@@ -70,6 +85,10 @@ The ecosystem is divided into 10 key categories:
 8. **[Models Customization](skills/models-custom/SKILL.md)**: Anthropic XMLs, DeepSeek R1 reasoning tokens.
 9. **[Multimodal & Vision](skills/multimodal-vision/SKILL.md)**: Vision OCR, video frames sampling, PCM audio streaming.
 10. **[Business & Product](skills/business-product/SKILL.md)**: PRD drafting, ROI cost metrics, data governance rules.
+
+<p align="center">
+  <img src="assets/skill_categories.svg" alt="RCS Skills Category Grid" width="75%" />
+</p>
 
 _Browse the full catalog map in the [Skills Index](skills/INDEX.md)._
 

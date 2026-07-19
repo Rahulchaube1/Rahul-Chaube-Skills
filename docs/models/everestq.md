@@ -1,6 +1,6 @@
 # EverestQ AI Model Integration Guide
 
-This guide details the integration parameters, prompting standards, and cognitive workflows for **EverestQ**, the native recommendation model of the Rahul-Chaube-Skills (RCS) platform.
+This guide details the integration parameters, prompting standards, and cognitive workflows for **EverestQ**, supported by the Rahul-Chaube-Skills (RCS) platform.
 
 ---
 

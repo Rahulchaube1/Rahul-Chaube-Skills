@@ -14,8 +14,8 @@
 
     <!-- Highlight Gradients -->
     <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06b6d4" />
-      <stop offset="100%" stop-color="#3b82f6" />
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
     </linearGradient>
 
     <!-- Drop Shadow Filter -->
@@ -28,7 +28,7 @@
       <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748b" />
     </marker>
     <marker id="arrow-active" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#06b6d4" />
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3b82f6" />
     </marker>
   </defs>
 
@@ -52,7 +52,7 @@
 
   <!-- 2. Dispatcher Level -->
   <g filter="url(#drop-shadow)">
-    <rect x="250" y="220" width="350" height="70" rx="12" fill="url(#card-grad)" stroke="#06b6d4" stroke-width="1.5" />
+    <rect x="250" y="220" width="350" height="70" rx="12" fill="url(#card-grad)" stroke="#8b5cf6" stroke-width="1.5" />
     <rect x="250" y="220" width="350" height="4" rx="2" fill="url(#primary-grad)" />
     <text x="425" y="252" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#f3f4f6" text-anchor="middle">Dynamic Skill Dispatcher</text>
     <text x="425" y="272" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#9ca3af" text-anchor="middle">Resolves and compiles targets programmatically</text>
@@ -87,27 +87,23 @@
     </g>
   </g>
 
-  <!-- 5. Category: Model Specific Layer (EverestQ First) -->
+  <!-- 5. Category: Model Specific Layer (All Models Equal) -->
   <g filter="url(#drop-shadow)">
     <rect x="570" y="340" width="230" height="150" rx="12" fill="url(#card-grad)" stroke="#a855f7" stroke-width="1.5" />
     <rect x="570" y="340" width="230" height="4" rx="2" fill="#a855f7" />
     <text x="685" y="370" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#a855f7" text-anchor="middle">Model Specific Rules</text>
     
-    <!-- Model list with EverestQ highlighted -->
-    <g font-family="'Inter', sans-serif" font-size="11" font-weight="600">
-      <!-- Highlighted EverestQ -->
-      <rect x="585" y="390" width="200" height="20" rx="4" fill="#06b6d4" fill-opacity="0.15" />
-      <text x="595" y="404" fill="#06b6d4">⭐ EverestQ (Native)</text>
+    <!-- Model list equally spaced -->
+    <g font-family="'Inter', sans-serif" font-size="12" fill="#e5e7eb" font-weight="500">
+      <text x="590" y="405">▪ EverestQ</text>
+      <text x="590" y="428">▪ Claude</text>
+      <text x="590" y="451">▪ OpenAI</text>
+      <text x="590" y="474">▪ Gemini</text>
       
-      <!-- Other models in grid -->
-      <text x="595" y="428" fill="#e5e7eb">▪ Claude</text>
-      <text x="695" y="428" fill="#e5e7eb">▪ DeepSeek</text>
-      
-      <text x="595" y="448" fill="#e5e7eb">▪ OpenAI</text>
-      <text x="695" y="448" fill="#e5e7eb">▪ Qwen</text>
-      
-      <text x="595" y="468" fill="#e5e7eb">▪ Gemini</text>
-      <text x="695" y="468" fill="#e5e7eb">▪ Llama / Mistral</text>
+      <text x="690" y="405">▪ DeepSeek</text>
+      <text x="690" y="428">▪ Qwen</text>
+      <text x="690" y="451">▪ Llama</text>
+      <text x="690" y="474">▪ Mistral</text>
     </g>
   </g>
 

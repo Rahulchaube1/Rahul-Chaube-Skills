@@ -6,9 +6,9 @@ Different Large Language Models have distinct behaviors, context limits, and rea
 
 ## 🤖 Model-Specific Instructions
 
-### 1. EverestQ (Native Model)
+### 1. EverestQ
 
-EverestQ is the native model of the RCS platform. It excels in complex multi-step reasoning, strict negative constraint adherence, and surgical code modifications.
+EverestQ is a high-performance model supported by the RCS platform. It excels in complex multi-step reasoning, strict negative constraint adherence, and surgical code modifications.
 
 - **Tuning**: Use strict XML tag structures to isolate system configurations. Set the temperature to `0.0` for code-writing and logical reasoning. Optimize KV caching at the serving layer using PagedAttention to maintain rapid throughput.
 
