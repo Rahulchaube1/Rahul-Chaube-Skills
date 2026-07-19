@@ -59,14 +59,18 @@ When configuring your own agent templates:
 Context Engineering is the practice of optimizing the structure, content, and token allocation of the LLM context window to ensure high-fidelity reasoning and prevent context recall degradation (loss of focus).
 
 ### 1. Token Budget Allocation
+
 Always partition your token budget systematically:
+
 - **System Instructions**: 10-15% (static, cached).
 - **Core Skill Templates**: 20-25% (dynamic, loaded on-demand).
 - **Short-Term Memory (History)**: 30-40% (sliding window, compacted).
 - **Current Task Context**: 20-30% (files, terminal stdout, user query).
 
 ### 2. Context Pruning & Compaction
+
 When context limits are approached, execute compaction routines:
+
 - **Summarize Old Conversations**: Replace historical back-and-forth turns with a high-density markdown summary of state updates.
 - **AST Pruning**: For code references, replace full files with class definitions, method signatures, and docstrings. Only inject the fully detailed code for the specific file targeted for changes.
 - **Sliding Attention Windows**: Maintain a sliding window of historical turns, pruning older turns while keeping key facts stored in a structured key-value memory map.
@@ -88,16 +92,20 @@ graph TD
 ```
 
 ### 1. Self-Reflection Prompts
+
 Direct the model to critique its own solution before emitting:
+
 ```markdown
 Verify your output against the following rules:
+
 - Does it contain any speculative imports?
 - Did you modify any lines outside the specified range?
-If any violations are found, rewrite the solution.
+  If any violations are found, rewrite the solution.
 ```
 
 ### 2. Programmatic Correction Hooks
+
 Set up automated triggers in your agent's execution loop:
+
 - **Linter-Heal Gate**: Feed linter outputs (errors, warnings) back into the prompt context, directing the model to correct the specific line numbers.
 - **Compiler Checks**: Run test suites or compiler checks automatically and append standard error streams to the model context window.
-

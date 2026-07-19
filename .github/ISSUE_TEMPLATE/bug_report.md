@@ -19,6 +19,7 @@ A description of what the guideline should have suggested or how it should have 
 If applicable, add screenshots or paste the code snippet showing the bug or the model's incorrect output.
 
 **Environment (please complete the following information):**
+
 - OS: [e.g. Windows, macOS]
 - IDE / Editor: [e.g. Cursor, VS Code]
 - Agent tool: [e.g. Claude Code, Custom SDK]

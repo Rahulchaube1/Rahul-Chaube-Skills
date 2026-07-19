@@ -41,6 +41,7 @@ DeepSeek-R1 utilizes extensive internal Chain-of-Thought (thinking tokens) befor
 ## 🧭 Model-Specific Prompt Patterns
 
 Adapting prompts to individual model biases yields significant performance gains:
+
 - **XML Tag Isolation (Claude / EverestQ)**: Wrap system contexts inside explicit XML block nodes. This allows the parser to split static parameters from user inputs surgically.
 - **Capitalization Constraints (OpenAI / Llama)**: Enforce negative constraints by capitalizing words (e.g. `DO NOT overwrite existing docstrings`).
 - **Chain-of-Thought (CoT) Freedom (DeepSeek R1)**: Provide clear thinking enclosures (e.g. `Output your complete thinking plan before coding`) to trigger deep reasoning pathways.
@@ -52,11 +53,14 @@ Adapting prompts to individual model biases yields significant performance gains
 When serving LLMs in production configurations, optimization at the execution layer is critical to maintain reasonable latencies and reduce hosting costs:
 
 ### 1. KV Cache Optimization (PagedAttention)
+
 - Standard attention mechanisms store keys and values (KV cache) in contiguous GPU memory. PagedAttention partitions the KV cache into logical blocks, avoiding fragmentation and enabling a **10x throughput increase** in parallel request serving.
 - Enable **Prompt Caching** to bypass reprocessing static system instructions on subsequent turns.
 
 ### 2. Quantization Profiles
+
 Deploying weights at full precision (FP16/FP32) is prohibitively expensive:
+
 - **AWQ (Activation-aware Weight Quantization)**: A 4-bit quantization scheme that keeps key activations at higher precisions, retaining model reasoning accuracy while reducing GPU memory footprints by 70%.
 - **GPTQ / GGUF**: Run quantized architectures locally on edge nodes or CPU setups.
 
@@ -67,12 +71,13 @@ Deploying weights at full precision (FP16/FP32) is prohibitively expensive:
 Avoid these common mistakes when deploying AI models in agentic systems:
 
 ### 1. Context Overloading (Information Stuffing)
-* **Anti-pattern**: Feeding the entire codebase or historical trace log directly into the context window simply because the model supports a large token limit.
-* **Failure Mode**: The model loses focus on task constraints (the "needle-in-a-haystack" retrieval drop).
-* **Fix**: Implement surgical context engineering (AST pruning, sliding windows).
+
+- **Anti-pattern**: Feeding the entire codebase or historical trace log directly into the context window simply because the model supports a large token limit.
+- **Failure Mode**: The model loses focus on task constraints (the "needle-in-a-haystack" retrieval drop).
+- **Fix**: Implement surgical context engineering (AST pruning, sliding windows).
 
 ### 2. Speculative Editing
-* **Anti-pattern**: Emitting updates without compiling or verifying linter warnings locally.
-* **Failure Mode**: The agent creates syntax errors in adjacent code blocks.
-* **Fix**: Force pre-flight planning and closed linter-healing loops.
 
+- **Anti-pattern**: Emitting updates without compiling or verifying linter warnings locally.
+- **Failure Mode**: The agent creates syntax errors in adjacent code blocks.
+- **Fix**: Force pre-flight planning and closed linter-healing loops.

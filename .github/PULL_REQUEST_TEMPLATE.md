@@ -1,7 +1,8 @@
 ## Proposed Changes
 
-Please describe the changes you are proposing. 
+Please describe the changes you are proposing.
 If modifying a skill or adding a new one, detail:
+
 - The skill's purpose
 - The main guidelines/rules added or updated
 - Why these instructions improve model performance/accuracy

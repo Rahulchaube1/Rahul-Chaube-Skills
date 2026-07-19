@@ -40,6 +40,7 @@ AI agents often get stuck in repetitive loops:
 ## 🏗️ Agent Design Patterns
 
 Production AI agents should be constructed based on task complexity:
+
 - **Router Pattern**: A centralized LLM directs queries to specific subagents or toolsets based on intent classification.
 - **Orchestrator-Workers Pattern**: An orchestrator splits a complex goal into parallel tasks, delegates them to independent workers, and synthesizes the results.
 - **Collaborative Multi-Agent Networks (Chat / Graph)**: Specialized agents communicate in structured topologies (e.g. state-sharing graphs like LangGraph).
@@ -51,13 +52,16 @@ Production AI agents should be constructed based on task complexity:
 Tool calling is the primary interaction interface between the agent and its execution environment.
 
 ### 1. Schema Definitions
+
 Define function schemas using strict formats (like JSON Schema or Pydantic):
+
 - Every argument must have a detailed description explaining boundaries, formatting expectations, and defaults.
 - Leverage typing constraints (e.g. `enum` for categorical choices, `minimum/maximum` for numbers).
 
 ### 2. Failure Handling & Recovery
-* **Parameter Validation**: Validate inputs at the client level before forwarding to the host tool execution engine.
-* **Error Escalation**: If a tool call fails, capture stderr and return a structured JSON response (e.g. `{"status": "error", "message": "..."}`) to let the model self-correct rather than crashing.
+
+- **Parameter Validation**: Validate inputs at the client level before forwarding to the host tool execution engine.
+- **Error Escalation**: If a tool call fails, capture stderr and return a structured JSON response (e.g. `{"status": "error", "message": "..."}`) to let the model self-correct rather than crashing.
 
 ---
 
@@ -89,10 +93,11 @@ Memory allows agents to maintain state and recall facts across long executions.
 Browser and Computer Use loops allow agents to interact directly with graphical user interfaces (GUIs).
 
 ### 1. Coordinate Navigation
+
 - **Screenshot Ingestion**: Periodically capture the screen state as high-resolution PNGs and feed them into multimodal vision encoders.
 - **Element Mapping**: Overlay interactive elements with numeric bounding boxes (interactive grids) to help the model select precise coordinates.
 
 ### 2. Action Verification
-- **Double-Check State Change**: Never assume a click succeeded. Capture a screenshot *after* the action and compare visual changes (e.g., changes in text input focus or loader animations) to confirm state updates.
-- **Wait Buffers**: Implement dynamic wait buffers to allow web pages and API integrations to resolve completely before running subsequent inputs.
 
+- **Double-Check State Change**: Never assume a click succeeded. Capture a screenshot _after_ the action and compare visual changes (e.g., changes in text input focus or loader animations) to confirm state updates.
+- **Wait Buffers**: Implement dynamic wait buffers to allow web pages and API integrations to resolve completely before running subsequent inputs.

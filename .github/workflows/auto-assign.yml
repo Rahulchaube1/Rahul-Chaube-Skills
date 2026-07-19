@@ -20,7 +20,7 @@ jobs:
         with:
           script: |
             const creator = "Rahulchaube1";
-            
+
             // Assign issue
             if (context.payload.issue) {
               await github.rest.issues.addAssignees({
@@ -30,7 +30,7 @@ jobs:
                 assignees: [creator]
               });
             }
-            
+
             // Assign PR and request review
             if (context.payload.pull_request) {
               await github.rest.issues.addAssignees({

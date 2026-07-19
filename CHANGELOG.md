@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [1.0.0] - 2026-07-19
 
 ### Added
+
 - Created the core structure for **Rahul-Chaube-Skills (RCS)**.
 - Established five major category subdirectories under `skills/`:
   - `core-behaviors`

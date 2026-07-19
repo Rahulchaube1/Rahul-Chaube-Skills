@@ -6,14 +6,14 @@ site_url: https://rahulchaube1.github.io/Rahul-Chaube-Skills/
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme: dark)"
+    - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: blue
       accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
+    - media: '(prefers-color-scheme: light)'
       scheme: default
       primary: blue
       accent: cyan
