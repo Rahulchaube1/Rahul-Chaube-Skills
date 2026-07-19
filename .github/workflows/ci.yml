@@ -6,8 +6,12 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   lint-and-format:
+    name: Lint & Format Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -17,8 +21,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'package-lock.json'
+        continue-on-error: true # Safe fallback if no package-lock.json exists yet
 
-      - name: Install formatter
+      - name: Install Linting Tools
         run: |
           npm install -g prettier markdownlint-cli2
 
@@ -26,10 +33,12 @@ jobs:
         run: prettier --check .
 
       - name: Run markdownlint
-        run: npx markdownlint-cli2 "README.md" "docs/**/*.md" "skills/**/*.md"
+        run: npx markdownlint-cli2 "README.md" "docs/**/*.md" "skills/**/*.md" "pathways/**/*.md" "projects/**/*.md"
 
   validate-build:
+    name: Validate Site Build
     runs-on: ubuntu-latest
+    needs: lint-and-format
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,11 +46,26 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+
+      - name: Prepare Documentation Folders
+        run: |
+          python -c "
+          import shutil, os
+          os.makedirs('docs', exist_ok=True)
+          shutil.copy('README.md', 'docs/index.md')
+          shutil.copy('FAQ.md', 'docs/FAQ.md')
+          shutil.copy('ROADMAP.md', 'docs/ROADMAP.md')
+          shutil.copy('CONTRIBUTING.md', 'docs/CONTRIBUTING.md')
+          for f in ['pathways', 'projects', 'skills']:
+              if os.path.exists(f'docs/{f}'): shutil.rmtree(f'docs/{f}')
+              shutil.copytree(f, f'docs/{f}')
+          "
 
       - name: Test build docs
         run: mkdocs build

@@ -1,0 +1,21 @@
+# Label configuration for actions/labeler
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: 'docs/**/*.md'
+
+skills:
+  - changed-files:
+      - any-glob-to-any-file: 'skills/**/*.md'
+
+projects:
+  - changed-files:
+      - any-glob-to-any-file: 'projects/**/*.md'
+
+pathways:
+  - changed-files:
+      - any-glob-to-any-file: 'pathways/**/*.md'
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: '.github/workflows/**/*.yml'

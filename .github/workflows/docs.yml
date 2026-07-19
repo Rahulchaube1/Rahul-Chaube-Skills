@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   deploy:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -18,11 +19,26 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+
+      - name: Prepare Documentation Folders
+        run: |
+          python -c "
+          import shutil, os
+          os.makedirs('docs', exist_ok=True)
+          shutil.copy('README.md', 'docs/index.md')
+          shutil.copy('FAQ.md', 'docs/FAQ.md')
+          shutil.copy('ROADMAP.md', 'docs/ROADMAP.md')
+          shutil.copy('CONTRIBUTING.md', 'docs/CONTRIBUTING.md')
+          for f in ['pathways', 'projects', 'skills']:
+              if os.path.exists(f'docs/{f}'): shutil.rmtree(f'docs/{f}')
+              shutil.copytree(f, f'docs/{f}')
+          "
 
       - name: Build and Deploy
         run: |
