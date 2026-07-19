@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="100%" height="100%">
+  <rect width="700" height="350" fill="#0f172a" rx="15" />
+  <text x="350" y="40" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">GRAPHRAG ASSISTANT DATA PIPELINE</text>
+  
+  <rect x="40" y="90" width="120" height="60" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="100" y="125" font-family="'Inter', sans-serif" font-size="13" font-weight="bold" fill="#38bdf8" text-anchor="middle">Input Query</text>
+
+  <path d="M160 120 L220 100 M160 120 L220 220" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="220" y="70" width="160" height="60" rx="6" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+  <text x="300" y="105" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#a855f7" text-anchor="middle">Vector Database</text>
+  <text x="300" y="120" font-family="'Inter', sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">Similarity search (Pinecone)</text>
+
+  <rect x="220" y="190" width="160" height="60" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="2" />
+  <text x="300" y="225" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#f59e0b" text-anchor="middle">Knowledge Graph</text>
+  <text x="300" y="240" font-family="'Inter', sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">Cypher extraction (Neo4j)</text>
+
+  <path d="M380 100 L440 150 M380 220 L440 150" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="440" y="120" width="180" height="80" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+  <text x="530" y="150" font-family="'Inter', sans-serif" font-size="13" font-weight="bold" fill="#10b981" text-anchor="middle">Hybrid Context</text>
+  <text x="530" y="170" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Fused text + graph maps</text>
+</svg>

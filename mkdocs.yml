@@ -1,0 +1,88 @@
+site_name: Rahul-Chaube-Skills (RCS)
+site_description: The Ultimate AI Skills Library and Ecosystem for Modern LLMs, AI Agents, Autonomous Systems, and Deep Research.
+site_author: Rahul Chaube
+site_url: https://rahulchaube1.github.io/Rahul-Chaube-Skills/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    logo: material/robot
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Core Philosophy: philosophy.md
+  - Getting Started: installation.md
+  - System Architecture: architecture.md
+  - Learning Pathways:
+      - Overview: pathways/INDEX.md
+      - Curriculums: pathways/curriculums.md
+      - Beginner AI Engineer: pathways/beginner-ai-engineer.md
+      - Intermediate Agent Developer: pathways/intermediate-agentic-developer.md
+      - Advanced Cognitive Architect: pathways/advanced-cognitive-architect.md
+      - Expert Systems Optimizer: pathways/expert-systems-optimization.md
+  - Documentation:
+      - Best Practices: best-practices.md
+      - Prompt Engineering: prompt-engineering.md
+      - AI Agents: ai-agents.md
+      - LLM Optimizations: llm.md
+      - Research Methodology: research.md
+      - Coding Standards: coding.md
+      - Reasoning & Loops: reasoning.md
+      - Workflows & Tasks: workflows.md
+      - Evaluation & Verification: evaluation.md
+      - Context & Memory: memory.md
+      - Tool Safety: tools.md
+      - Vision & Multimodal: vision.md
+      - Examples: examples.md
+  - Example Projects:
+      - Overview: projects/INDEX.md
+      - Coding Agent: projects/coding-agent.md
+      - Research Agent: projects/deep-research-agent.md
+      - Browser Agent: projects/browser-automation-agent.md
+      - GraphRAG Assistant: projects/graph-rag-assistant.md
+      - Voice Agent: projects/voice-agent.md
+  - FAQ: FAQ.md
+  - Roadmap: ROADMAP.md
+  - Contributing: CONTRIBUTING.md

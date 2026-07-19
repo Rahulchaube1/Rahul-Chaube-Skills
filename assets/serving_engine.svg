@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 350" width="100%" height="100%">
+  <rect width="650" height="350" fill="#0f172a" rx="15" />
+  <text x="325" y="40" font-family="'Inter', sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9" text-anchor="middle">vLLM PAGEDATTENTION CACHE SYSTEM</text>
+  
+  <rect x="50" y="80" width="180" height="220" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="140" y="110" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#38bdf8" text-anchor="middle">Virtual Memory Map</text>
+  <text x="140" y="130" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Logical KV Blocks</text>
+  <rect x="70" y="160" width="140" height="30" rx="4" fill="#334155" />
+  <text x="140" y="178" font-family="monospace" font-size="11" fill="#38bdf8" text-anchor="middle">Logical Block 0</text>
+  <rect x="70" y="200" width="140" height="30" rx="4" fill="#334155" />
+  <text x="140" y="218" font-family="monospace" font-size="11" fill="#38bdf8" text-anchor="middle">Logical Block 1</text>
+
+  <path d="M230 175 L400 135 M230 215 L400 255" stroke="#64748b" stroke-width="2" fill="none" />
+
+  <rect x="400" y="80" width="200" height="220" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+  <text x="500" y="110" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#10b981" text-anchor="middle">Physical GPU Cache</text>
+  <text x="500" y="130" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Non-contiguous Allocation</text>
+  <rect x="420" y="160" width="160" height="30" rx="4" fill="#10b981" fill-opacity="0.2" stroke="#10b981" />
+  <text x="500" y="178" font-family="monospace" font-size="11" fill="#10b981" text-anchor="middle">Physical Block 24</text>
+  <rect x="420" y="200" width="160" height="30" rx="4" fill="#10b981" fill-opacity="0.2" stroke="#10b981" />
+  <text x="500" y="218" font-family="monospace" font-size="11" fill="#10b981" text-anchor="middle">Physical Block 7</text>
+</svg>
